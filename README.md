@@ -16,7 +16,7 @@ Before using it:
  
  1. first pull the latest changes from the remote `git pull origin staging`
  2. create a new branch with the feature name and issue number `git checkout -b Feature#IssueNumber_ISSUE_NAME` same goes for bug fixes 
- 3. after the work is done, please commit and don't forget to add the issue number in the commit message `git commit -m '#ISSUE_NUMBER commit message'`
+ 3. after the work is done, please commit and don't forget to add the issue number in the commit message `git commit -m '#ISSUE_NUMBER FEATURE_NAME commit message details'`
  4. create a pull request to _'staging'_
  
 ## Angular 2 CLI commands 
