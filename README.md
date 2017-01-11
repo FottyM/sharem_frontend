@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/FottyM/sharem_frontend.svg?token=ezxbwzx4yzRF7YSKWEAV&branch=master)](https://travis-ci.com/FottyM/sharem_frontend)
+
 #Sharem
 
 ##Setup
