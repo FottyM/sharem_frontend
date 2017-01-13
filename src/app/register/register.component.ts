@@ -1,9 +1,7 @@
-import {Component, Inject} from "@angular/core";
+import {Component} from "@angular/core";
 import {Router} from "@angular/router";
 import {UserService} from "../services/user.service";
 import {AlertService} from "../services/alert.service";
-import {FormBuilder,FormGroup,Validators} from "@angular/forms";
-import {User} from "../models/user";
 
 @Component({
   templateUrl: './register.component.html'

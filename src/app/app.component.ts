@@ -1,4 +1,8 @@
-import { Component } from '@angular/core';
+import {Component, OnChanges, OnInit} from '@angular/core';
+import {AuthenticationService} from "./services/authentication.service";
+import {Routes, Router, ActivatedRoute} from "@angular/router";
+import {AlertService} from "./services/alert.service";
+
 
 
 @Component({
@@ -6,6 +10,24 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.sass']
 })
-export class AppComponent {
-  title = 'app works!';
+export class AppComponent implements OnInit{
+
+  currentUser = JSON.parse(localStorage.getItem('currentUser'));
+  returnUrl: string;
+
+  constructor(private authenticationService: AuthenticationService, private route: ActivatedRoute, private router: Router, private alertService: AlertService){}
+
+
+  logout(){
+
+    this.authenticationService.logout();
+    this.alertService.success('Logged out',false);
+    this.currentUser = null;
+
+  }
+
+  ngOnInit(){
+    console.log(this.currentUser);
+  }
+
 }
