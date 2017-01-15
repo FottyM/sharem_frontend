@@ -37,7 +37,9 @@ export class LoginComponent implements OnInit {
           this.router.navigate([this.returnUrl]);
           this.alertService.success(`Welcome!`);
           this.router.navigateByUrl('/DummyComponent', true);
-          setTimeout(this.router.navigate(["/home"]),3000);
+          this.router.navigate(["/home"]);
+          // window.history.back();
+          location.reload(true);
         },
         error => {
           this.alertService.error(this.stringify(error));

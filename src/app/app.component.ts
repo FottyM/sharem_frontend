@@ -23,6 +23,7 @@ export class AppComponent implements OnInit{
     this.authenticationService.logout();
     this.alertService.success('Logged out',false);
     this.currentUser = null;
+    window.history.back();
 
   }
 
