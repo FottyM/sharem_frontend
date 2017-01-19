@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {HttpModule, BaseRequestOptions} from '@angular/http';
 
+
 import { routing } from './app.routing'
 import { UserService } from './services/user.service'
 
@@ -14,6 +15,7 @@ import { AlertComponent } from './helpers/alert/alert.component';
 import {AlertService} from "./services/alert.service";
 import {AuthenticationService} from "./services/authentication.service";
 import {AuthGuard} from "./guards/auth.guard";
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -23,6 +25,7 @@ import {AuthGuard} from "./guards/auth.guard";
     RegisterComponent,
     HomeComponent,
     AlertComponent,
+    LoginComponent,
   ],
 
   imports: [
