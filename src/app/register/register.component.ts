@@ -1,17 +1,19 @@
-import {Component, Inject} from "@angular/core";
+import {Component, Inject, OnInit} from "@angular/core";
 import {Router} from "@angular/router";
 import {UserService} from "../services/user.service";
 import {AlertService} from "../services/alert.service";
-import {FormBuilder,FormGroup,Validators} from "@angular/forms";
-import {User} from "../models/user";
+
+
+
+
 
 @Component({
   templateUrl: './register.component.html'
 })
-export class RegisterComponent {
+export class RegisterComponent implements OnInit{
 
   model: any = {};
-  loading = false;
+  loading: boolean = false;
 
   constructor(
     private router: Router,
@@ -25,15 +27,38 @@ export class RegisterComponent {
         data => {
           // set success message and pass true parameter to persist the message after redirecting to the login page
           this.alertService.success('Registration successful', true);
-          console.log('Success');
           this.router.navigate(['/home']);
         },
         error => {
-          // error = JSON.parse(error._body || null);
-          this.alertService.error(error);
+          error = JSON.parse(error._body);
+          this.alertService.error(this.forEachKey(error));
           this.loading = false;
-          console.log(error._body);
+          console.log(this.forEachKey(error));
         });
   }
+
+  ngOnInit(): void{
+
+    // console.log(this.model.acceptTermsAndCondition)
+    console.log('Register');
+  }
+
+  forEachKey(obj: Object): string {
+
+    let messages: string = '';
+    let keys = Object.keys(obj);
+
+    for( let key in keys){
+      if( keys[key] == 'message'){
+        for(let value in obj[keys[key]] ){
+          messages +=  `${obj[keys[key]][value][0]} \n ` ;
+        }
+      }
+    }
+
+    return messages;
+  }
+
+
 
 }
