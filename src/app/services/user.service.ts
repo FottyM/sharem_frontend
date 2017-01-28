@@ -1,25 +1,27 @@
 import { Injectable } from '@angular/core';
 import {Http, Headers, RequestOptions, Response} from "@angular/http";
 import {User} from "../models/user";
-//
+//The return type
 import { Observable } from 'rxjs/Observable';
+import {backendUrl} from "../backend/backend";
+
 
 
 
 @Injectable()
 export class UserService {
 
-  private  url: string = 'http://test.sharem.eu/api/users';
+  private  url: string = `${backendUrl}/users`;
 
   constructor(private http: Http) {
-  //  constructor
+  console.log(`this is the url ${this.url}`);
   }
 
-  getAll() {
+  getAll():Observable<any> {
     return this.http.get(this.url, this.jwt()).map((response: Response) => response.json());
   }
 
-  getById(id: number) {
+  getOne(id: number) {
     return this.http.get(this.url + id, this.jwt()).map((response: Response) => response.json());
   }
 

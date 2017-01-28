@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  bakcendUrl: 'https://sharem.eu/api'
 };

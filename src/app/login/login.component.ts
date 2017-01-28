@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute, Router} from "@angular/router";
 import {AuthenticationService} from "../services/authentication.service";
 import {AlertService} from "../services/alert.service";
+import {Observable} from "rxjs";
 
 
 @Component({
@@ -29,7 +30,7 @@ export class LoginComponent implements OnInit {
     this.returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/';
   }
 
-  login() {
+  login(): void{
     this.loading = true;
     this.authenticationService.login(this.model.email, this.model.password)
       .subscribe(

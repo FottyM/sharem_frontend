@@ -1,4 +1,1 @@
-export class BackEnd{
-  backendUlr = 'test.sharem.eu/api';
-  usersBackend = `${this.backendUlr}/users`
-}
+export const backendUrl = 'https://test.sharem.eu/api';

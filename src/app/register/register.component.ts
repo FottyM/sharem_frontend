@@ -1,4 +1,4 @@
-import {Component} from "@angular/core";
+import {Component, OnInit} from "@angular/core";
 import {Router} from "@angular/router";
 import {UserService} from "../services/user.service";
 import {AlertService} from "../services/alert.service";
@@ -47,7 +47,7 @@ export class RegisterComponent implements OnInit{
     for( let key in keys){
       if( keys[key] == 'message'){
         for(let value in obj[keys[key]] ){
-          messages +=  `${obj[keys[key]][value][0]} \n ` ;
+          messages += `${obj[keys[key]][value][0]}` ;
         }
       }
     }

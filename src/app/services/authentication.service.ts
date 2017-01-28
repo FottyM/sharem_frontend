@@ -2,15 +2,16 @@ import { Injectable } from '@angular/core';
 import { Http, Headers, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map'
+import {backendUrl} from "../backend/backend";
 
 @Injectable()
 export class AuthenticationService {
 
-  private  loginUrl: string = "http://test.sharem.eu/api/authenticate";
+  private  loginUrl: string =  `${backendUrl}/authenticate`;
 
   constructor(private http: Http) { }
 
-  login(email: string, password: string) {
+  login(email: string, password: string): Observable<any> {
 
     return this.http.post(this.loginUrl, {email: email, password: password})
       .map((response: Response) => {
