@@ -14,7 +14,7 @@ export class UserService {
   private  url: string = `${backendUrl}/users`;
 
   constructor(private http: Http) {
-  console.log(`this is the url ${this.url}`);
+
   }
 
   getAll():Observable<any> {
@@ -22,7 +22,7 @@ export class UserService {
   }
 
   getOne(id: number) {
-    return this.http.get(this.url + id, this.jwt()).map((response: Response) => response.json());
+    return this.http.get(`${this.url}/${id}`, this.jwt()).map((response: Response) => {response.json()});
   }
 
   create(user: User) {

@@ -1,5 +1,9 @@
 <div *ngIf="message" class="text-center" [ngClass]="{ 'alert': message, 'alert-success': message.type === 'success', 'alert-danger': message.type === 'error' }" role="alert">
-    <strong>{{message.text}}</strong>
+
+      <ul>
+        <li> <strong>{{message.text}}</strong> </li>
+      </ul>
+
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>

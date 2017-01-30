@@ -4,8 +4,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {HttpModule, BaseRequestOptions} from '@angular/http';
 
 
-import { routing } from './app.routing'
-import { UserService } from './services/user.service'
+import { routing } from './app.routing';
+import { UserService } from './services/user.service';
+
 
 
 import { AppComponent } from './app.component';
@@ -16,6 +17,8 @@ import {AlertService} from "./services/alert.service";
 import {AuthenticationService} from "./services/authentication.service";
 import {AuthGuard} from "./guards/auth.guard";
 import { LoginComponent } from './login/login.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import {ProductsService} from "./services/products.service";
 
 
 @NgModule({
@@ -26,6 +29,7 @@ import { LoginComponent } from './login/login.component';
     HomeComponent,
     AlertComponent,
     LoginComponent,
+    DashboardComponent,
   ],
 
   imports: [
@@ -41,6 +45,7 @@ import { LoginComponent } from './login/login.component';
     AuthenticationService,
     UserService,
     AlertService,
+    ProductsService,
     BaseRequestOptions
   ],
   bootstrap: [AppComponent]
