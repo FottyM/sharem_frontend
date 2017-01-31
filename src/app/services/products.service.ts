@@ -16,16 +16,26 @@ export class ProductsService {
   //search
   getOneProduct(id: number){
     return this.http.get(`${this.url}/${id}`, this.jwt())
-      .map( (response: Response) => { response.json() as Product})
+      .map( (response: Response) => { response.json() as Product});
   }
-  //create
 
+  //create
   createProduct(product: Product): Observable<Product>{
     return this.http.post(this.url, product, this.jwt()).map( (response: Response) => response.json() as Product)
   }
   //read
+
+  getPorducts(): Observable<Product[]>{
+    return this.http.get(this.url, this.jwt()).map((response: Response) => response.json() as Product[])
+  }
   //update
+  updateProduct(product: Product): Observable<Product>{
+    return this.http.put(this.url,product,this.jwt()).map( (response: Response) => response.json() as Product )
+  }
   //detele
+  deleteProduct(id :number){
+    return this.http.delete(`${this.url}/${id}`, this.jwt()).map((response: Response) => response.json());
+  }
 
   private handleError(error: Response){
     console.error(error);

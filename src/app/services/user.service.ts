@@ -17,12 +17,12 @@ export class UserService {
 
   }
 
-  getAll():Observable<any> {
+  getAll(){
     return this.http.get(this.url, this.jwt()).map((response: Response) => response.json());
   }
 
-  getOne(id: number) {
-    return this.http.get(`${this.url}/${id}`, this.jwt()).map((response: Response) => {response.json()});
+  getOne(id: number){
+    return this.http.get(`${this.url}/${id}`, this.jwt()).map((response: Response) => response.json());
   }
 
   create(user: User) {
@@ -38,7 +38,6 @@ export class UserService {
   }
 
   // private helper methods
-// okay I get it
   private jwt() {
     // create authorization header with jwt token
     let currentUser = JSON.parse(localStorage.getItem('currentUser'));

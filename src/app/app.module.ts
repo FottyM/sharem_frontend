@@ -19,6 +19,8 @@ import {AuthGuard} from "./guards/auth.guard";
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import {ProductsService} from "./services/products.service";
+import {MyDatePickerModule} from "mydatepicker";
+import { ProductManagementComponent } from './product-management/product-management.component';
 
 
 @NgModule({
@@ -30,6 +32,7 @@ import {ProductsService} from "./services/products.service";
     AlertComponent,
     LoginComponent,
     DashboardComponent,
+    ProductManagementComponent,
   ],
 
   imports: [
@@ -37,6 +40,7 @@ import {ProductsService} from "./services/products.service";
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
+    MyDatePickerModule,
     routing
 
   ],

@@ -1,15 +1,20 @@
-export class User {
+export interface User {
 
   id: number;
-  name: string;
+  username: string;
   email: string;
-  created_at : any;
-  updated_at: any;
-  fullname: string;
+  first_name: string;
+  last_name: string;
   id_code: string;
   phone: string;
   status: number;
-  dob: string;
-  group: string;
-  updated: number;
+  date_of_birth: any;
+  address: {
+    street: string,
+    city: string,
+    postal:string,
+    country: string;
+  }
+  password: string;
+
 }
