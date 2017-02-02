@@ -3,6 +3,7 @@ import {ActivatedRoute, Router} from "@angular/router";
 import {AuthenticationService} from "../services/authentication.service";
 import {AlertService} from "../services/alert.service";
 import {Observable} from "rxjs";
+import {currentUser} from "../helpers/global-variables";
 
 
 @Component({
@@ -28,6 +29,7 @@ export class LoginComponent implements OnInit {
     this.authenticationService.logout();
     // get return url from route parameters or default to '/'
     this.returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/';
+    // console.log(`${currentUser.token}`);
   }
 
   login(): void{

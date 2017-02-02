@@ -4,8 +4,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {HttpModule, BaseRequestOptions} from '@angular/http';
 
 
-import { routing } from './app.routing'
-import { UserService } from './services/user.service'
+import { routing } from './app.routing';
+import { UserService } from './services/user.service';
+
 
 
 import { AppComponent } from './app.component';
@@ -16,6 +17,12 @@ import {AlertService} from "./services/alert.service";
 import {AuthenticationService} from "./services/authentication.service";
 import {AuthGuard} from "./guards/auth.guard";
 import { LoginComponent } from './login/login.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import {ProductsService} from "./services/products.service";
+import {MyDatePickerModule} from "mydatepicker";
+import { ProductManagementComponent } from './product-management/product-management.component';
+import { ProductListComponent } from './product-management/product-list/product-list.component';
+import { NgUploaderModule } from 'ngx-uploader';
 
 
 @NgModule({
@@ -26,6 +33,9 @@ import { LoginComponent } from './login/login.component';
     HomeComponent,
     AlertComponent,
     LoginComponent,
+    DashboardComponent,
+    ProductManagementComponent,
+    ProductListComponent,
   ],
 
   imports: [
@@ -33,6 +43,8 @@ import { LoginComponent } from './login/login.component';
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
+    MyDatePickerModule,
+    NgUploaderModule,
     routing
 
   ],
@@ -41,6 +53,7 @@ import { LoginComponent } from './login/login.component';
     AuthenticationService,
     UserService,
     AlertService,
+    ProductsService,
     BaseRequestOptions
   ],
   bootstrap: [AppComponent]

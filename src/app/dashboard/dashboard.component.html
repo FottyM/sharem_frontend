@@ -1,0 +1,132 @@
+<div class="row">
+  <!-- Nav tabs -->
+  <div class="col-md-4 well" id="dashboard-menu">
+    <ul class="nav nav-pills nav-stacked" role="tablist">
+      <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Account Details</a></li>
+      <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">List Items</a></li>
+      <li role="presentation"><a href="#add_item" aria-controls="profile" role="tab" data-toggle="tab">Add Items</a></li>
+      <li role="presentation"><a href="#suggest" aria-controls="suggest" role="tab" data-toggle="tab">Messages</a></li>
+    </ul>
+  </div>
+
+
+  <!-- Tab panes -->
+  <div class="col-md-8">
+    <div class="panel panel-primary">
+      <!--<div class="panel-heading">-->
+        <!--<h2 class="panel-title"> Account details </h2>-->
+      <!--</div>-->
+      <div class="panel-body">
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="home">
+            <form novalidate (ngSubmit)="onSubmit(user)" [formGroup]="user" >
+              <div class="form-group">
+                  <label class="control-label" for="first_name"> First Name </label>
+                  <input type="text" placeholder="first name" formControlName="first_name"  id="first_name" class="form-control">
+                <div class="label label-danger" *ngIf="user.get('first_name').touched && user.get('first_name').hasError('required')">
+                  First name is required
+                </div>
+                <div class="label label-danger" *ngIf="user.get('first_name').touched && user.get('first_name').hasError('minlength')">
+                  Minimum of 2 characters
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="last_name"> Last Name</label>
+                <input type="text" placeholder="last name" formControlName="last_name" id="last_name" class="form-control">
+
+                <div class="label label-danger" *ngIf="user.get('last_name').touched && user.get('last_name').hasError('required')">
+                  Last name is required
+                </div>
+                <div class="label label-danger" *ngIf="user.get('last_name').touched && user.get('last_name').hasError('minlength')">
+                  Minimum of 2 characters
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email </label>
+                <input type="email" placeholder="email " formControlName="email" id="email" class="form-control">
+
+                <div class="label label-danger" *ngIf="user.get('email').touched && user.get('email').hasError('required')">
+                  Email is required
+                </div>
+                <div class="label label-danger" *ngIf="user.get('email').touched && user.get('email').hasError('minlength')">
+                  Minimum of 2 characters
+                </div>
+                <div class="label label-danger" *ngIf="user.get('email').touched && user.get('email').hasError('pattern')">
+                  Please check the format of your email
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="username"> Username </label>
+                <input type="text" placeholder="username" formControlName="username" id="username" class="form-control" readonly>
+              </div>
+
+              <div class="form-group">
+                <label for="id_code"> ID Code</label>
+                <input type="number" placeholder="ID code" formControlName="id_code" id="id_code" class="form-control">
+                <div class="label label-danger" *ngIf="user.get('id_code').touched && user.get('id_code').hasError('required')">
+                  Email is required
+                </div>
+                <div class="label label-danger" *ngIf="user.get('id_code').touched && user.get('id_code').hasError('minlength')">
+                  Length is 11
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="phone"> Phone </label>
+                <input type="number" placeholder="Phone number" formControlName="phone" id="phone" maxlength="8" class="form-control">
+                <div class="label label-danger" *ngIf="user.get('phone').touched && user.get('phone').hasError('required')">
+                  Phone number is required
+                </div>
+                <div class="label label-danger" *ngIf="user.get('phone').touched && user.get('phone').hasError('minlength')">
+                  Hmmm it should be 8 digits
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="date_of_birth">Date of Birth</label>
+                <my-date-picker name="date_of_birth" [options]="dateOfBirth"  formControlName="date_of_birth" id="date_of_birth" ></my-date-picker>
+              </div>
+
+              <div formGroupName="address" class="form-group">
+                <label>
+                  <span>Street</span>
+                  <input type="text" placeholder="Your street" formControlName="street" class="form-control">
+                </label>
+
+                <label>
+                  <span>City</span>
+                  <input type="text" placeholder="Your City" formControlName="city" class="form-control">
+                </label>
+
+                <label>
+                  <span>Postal code</span>
+                  <input type="text" placeholder="Postal Code" formControlName="postal" class="form-control">
+                </label>
+
+                <label>
+                  <span>Country</span>
+                  <input type="text" placeholder="Your street" formControlName="country" class="form-control">
+                </label>
+              </div>
+
+              <button type="submit"  class="btn btn-block btn-success">Update</button>
+              {{user.value | json}}
+              {{user.valid | json }}
+            </form>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="profile">
+            <product-list></product-list>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="suggest">
+            Messages
+          </div>
+          <div role="tabpanel" class="tab-pane" id="add_item">
+            <product-management></product-management>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -2,6 +2,7 @@ import {Component, OnChanges, OnInit} from '@angular/core';
 import {AuthenticationService} from "./services/authentication.service";
 import {Routes, Router, ActivatedRoute} from "@angular/router";
 import {AlertService} from "./services/alert.service";
+import {currentUser} from "./helpers/global-variables";
 
 
 
@@ -12,7 +13,7 @@ import {AlertService} from "./services/alert.service";
 })
 export class AppComponent implements OnInit{
 
-  currentUser = JSON.parse(localStorage.getItem('currentUser'));
+  currentUser = currentUser;
   returnUrl: string;
 
   constructor(private authenticationService: AuthenticationService, private route: ActivatedRoute, private router: Router, private alertService: AlertService){}
@@ -28,7 +29,7 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit(){
-    console.log(this.currentUser);
+    // console.log(this.currentUser);
   }
 
 }
