@@ -3,10 +3,11 @@ export interface Product{
   name: string;
   price: number;
   description: string;
-  updated_at:{
-    date: any,
-    timezone_type: number,
-    timezone: string
-  }
+  user_id: number;
+  // updated_at:{
+  //   date: any,
+  //   timezone_type: number,
+  //   timezone: string
+  // }
   images:Array<string>;
 }

@@ -1,0 +1,21 @@
+<form novalidate (ngSubmit)="addProduct(product)" [formGroup]="product" >
+  <div class="form-group">
+    <label for="name" class="control-label">Name</label>
+    <input type="text" formControlName="name" id="name" placeholder="products name" class="form-control">
+  </div>
+
+  <div class="form-group">
+    <label for="price" class="control-label">Price</label>
+    <input type="number" formControlName="price" id="price" placeholder="0.00" class="form-control">
+  </div>
+
+  <div class="form-group">
+    <label for="description" class="control-label">Name</label>
+    <textarea type="text" formControlName="description" id="description" class="form-control">
+    </textarea>
+    <span class="help-block">Please specify all the details</span>
+  </div>
+
+  <button type="submit" id="submit" class=" btn btn-block btn-info"> Submit </button>
+{{product.value | json }}
+</form>

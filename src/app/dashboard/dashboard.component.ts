@@ -25,7 +25,7 @@ export class DashboardComponent implements OnInit {
 
 
   ngOnInit() {
-    this.user = this.initFormBuilder();
+    this.user = this.initUserFormBuilder();
   }
   onSubmit({ value, valid }: { value: User, valid: boolean }) {
 
@@ -42,7 +42,7 @@ export class DashboardComponent implements OnInit {
 
   }
 
-  initFormBuilder(){
+  initUserFormBuilder(){
 
     return this.fb.group({
       first_name: ['', [Validators.required, Validators.minLength(2)]],

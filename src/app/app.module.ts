@@ -21,6 +21,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import {ProductsService} from "./services/products.service";
 import {MyDatePickerModule} from "mydatepicker";
 import { ProductManagementComponent } from './product-management/product-management.component';
+import { ProductListComponent } from './product-management/product-list/product-list.component';
+import { NgUploaderModule } from 'ngx-uploader';
 
 
 @NgModule({
@@ -33,6 +35,7 @@ import { ProductManagementComponent } from './product-management/product-managem
     LoginComponent,
     DashboardComponent,
     ProductManagementComponent,
+    ProductListComponent,
   ],
 
   imports: [
@@ -41,6 +44,7 @@ import { ProductManagementComponent } from './product-management/product-managem
     ReactiveFormsModule,
     HttpModule,
     MyDatePickerModule,
+    NgUploaderModule,
     routing
 
   ],

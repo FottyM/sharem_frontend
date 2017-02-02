@@ -21,6 +21,7 @@ export class ProductsService {
 
   //create
   createProduct(product: Product): Observable<Product>{
+    debugger;
     return this.http.post(this.url, product, this.jwt()).map( (response: Response) => response.json() as Product)
   }
   //read

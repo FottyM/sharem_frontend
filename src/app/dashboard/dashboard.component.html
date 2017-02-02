@@ -3,7 +3,8 @@
   <div class="col-md-4 well" id="dashboard-menu">
     <ul class="nav nav-pills nav-stacked" role="tablist">
       <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Account Details</a></li>
-      <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Products</a></li>
+      <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">List Items</a></li>
+      <li role="presentation"><a href="#add_item" aria-controls="profile" role="tab" data-toggle="tab">Add Items</a></li>
       <li role="presentation"><a href="#suggest" aria-controls="suggest" role="tab" data-toggle="tab">Messages</a></li>
     </ul>
   </div>
@@ -12,29 +13,23 @@
   <!-- Tab panes -->
   <div class="col-md-8">
     <div class="panel panel-primary">
-      <div class="panel-heading">
-        <h2 class="panel-title"> Account details </h2>
-      </div>
+      <!--<div class="panel-heading">-->
+        <!--<h2 class="panel-title"> Account details </h2>-->
+      <!--</div>-->
       <div class="panel-body">
         <div class="tab-content">
           <div role="tabpanel" class="tab-pane active" id="home">
             <form novalidate (ngSubmit)="onSubmit(user)" [formGroup]="user" >
-
               <div class="form-group">
-
                   <label class="control-label" for="first_name"> First Name </label>
                   <input type="text" placeholder="first name" formControlName="first_name"  id="first_name" class="form-control">
-
-
                 <div class="label label-danger" *ngIf="user.get('first_name').touched && user.get('first_name').hasError('required')">
                   First name is required
                 </div>
                 <div class="label label-danger" *ngIf="user.get('first_name').touched && user.get('first_name').hasError('minlength')">
                   Minimum of 2 characters
                 </div>
-
               </div>
-
               <div class="form-group">
                 <label for="last_name"> Last Name</label>
                 <input type="text" placeholder="last name" formControlName="last_name" id="last_name" class="form-control">
@@ -92,8 +87,6 @@
               <div class="form-group">
                 <label for="date_of_birth">Date of Birth</label>
                 <my-date-picker name="date_of_birth" [options]="dateOfBirth"  formControlName="date_of_birth" id="date_of_birth" ></my-date-picker>
-                
-
               </div>
 
               <div formGroupName="address" class="form-group">
@@ -124,10 +117,13 @@
             </form>
           </div>
           <div role="tabpanel" class="tab-pane" id="profile">
-            Just pleas
+            <product-list></product-list>
           </div>
           <div role="tabpanel" class="tab-pane" id="suggest">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio sequi, veritatis? Consequatur hic odio sequi unde voluptatibus! Eaque facere illo incidunt magni perspiciatis. Aliquid excepturi in itaque maxime necessitatibus tenetur!
+            Messages
+          </div>
+          <div role="tabpanel" class="tab-pane" id="add_item">
+            <product-management></product-management>
           </div>
         </div>
       </div>
