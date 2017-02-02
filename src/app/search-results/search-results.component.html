@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-md-4">
+    <search></search>
+  </div>
+  <div class="col-md-8">
+    <table *ngFor="let product of products " class="table table-bordered table-hover">
+      <tr>
+        <td>
+          <img src="{{product.images[0]}}" alt=""  height="181px" width="181px">
+        </td>
+        <td>
+          <h3>{{product.name}}</h3>
+          <p>{{product.description}}</p>
+          <h4> <span class="label label-info label-lg">{{product.price | currency:'EUR' }}</span></h4>
+          <button type="button" class="btn btn-success pull-right">More info..</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

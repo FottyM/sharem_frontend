@@ -1,6 +1,6 @@
 import {Product} from "../models/product";
 export const backendUrl = 'https://test.sharem.eu/api';
-export const products = [
+export const PRODUCTS: Product[] = [
 
   {
     id: 1,

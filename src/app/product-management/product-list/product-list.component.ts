@@ -3,7 +3,7 @@ import { AlertService } from "../../services/alert.service";
 import { ProductsService } from "../../services/products.service";
 import { Product } from "../../models/product";
 import { Subscription } from 'rxjs/Subscription';
-import {products} from "../../backend/backend";
+import {PRODUCTS} from "../../backend/backend";
 import {currentUser} from "../../helpers/global-variables";
 
 
@@ -22,7 +22,7 @@ export class ProductListComponent implements OnInit {
   ngOnInit() {
     // this.getAllProducts();
     console.log(this.currentUser);
-    this.products = products;
+    this.products = PRODUCTS;
   }
 
   getAllProducts(){
