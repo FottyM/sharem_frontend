@@ -3,7 +3,7 @@
     <search></search>
   </div>
   <div class="col-md-8">
-    <table *ngFor="let product of products " class="table table-bordered table-hover">
+    <table *ngFor="let product of products " class="table table-hover">
       <tr>
         <td>
           <img src="{{product.images[0]}}" alt=""  height="181px" width="181px">
@@ -11,8 +11,8 @@
         <td>
           <h3>{{product.name}}</h3>
           <p>{{product.description}}</p>
-          <h4> <span class="label label-info label-lg">{{product.price | currency:'EUR' }}</span></h4>
-          <button type="button" class="btn btn-success pull-right">More info..</button>
+          <h4> <span class="label label-info">{{product.price | currency:'EUR':true:'2.2-2' }}</span></h4>
+          <button type="button" class="btn btn-primary pull-right" (click)="gotoDetails(product)" >Product Details</button>
         </td>
       </tr>
     </table>

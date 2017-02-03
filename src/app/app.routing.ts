@@ -11,6 +11,7 @@ import {LoginComponent} from "./login/login.component";
 import {DashboardComponent} from "./dashboard/dashboard.component";
 import {ProductManagementComponent} from "./product-management/product-management.component";
 import {SearchResultsComponent} from "./search-results/search-results.component";
+import {ProductDetailsComponent} from "./product-details/product-details.component";
 
 const appRoutes: Routes = [
   { path: 'register', component: RegisterComponent},
@@ -18,7 +19,8 @@ const appRoutes: Routes = [
   { path: 'home', component: HomeComponent},
   { path: 'login', component: LoginComponent},
   { path: 'dashboard', component: DashboardComponent},
-  { path: 'search', component: SearchResultsComponent}
+  { path: 'search', component: SearchResultsComponent},
+  { path: 'products/:id', component: ProductDetailsComponent}
 
   // { path: '**', redirectTo: '' }
 
