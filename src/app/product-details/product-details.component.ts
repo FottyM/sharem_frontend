@@ -6,6 +6,8 @@ import {PurchaseOrder} from "../models/purchase-order";
 import {FormGroup, FormBuilder, Validators} from "@angular/forms";
 import {currentUser} from "../helpers/global-variables";
 import {IMyOptions} from "mydatepicker";
+import {AlertService} from "../services/alert.service";
+
 
 @Component({
   selector: 'app-product-details',
@@ -20,7 +22,7 @@ export class ProductDetailsComponent implements OnInit {
   renter = currentUser.user;
   private dateOptions: IMyOptions = { dateFormat: 'dd.mm.yyyy'};
 
-  constructor(private router: ActivatedRoute, private fb:FormBuilder) { }
+  constructor(private router: ActivatedRoute, private fb:FormBuilder, private alerService: AlertService) { }
 
   ngOnInit() {
     this.router.params.forEach((params: Params) => {
@@ -41,6 +43,7 @@ export class ProductDetailsComponent implements OnInit {
 
   initFormBuilder(){
     return this.fb.group({
+      name: [''+this.product.name, Validators.required],
       rentalPeriod: this.fb.group(
         {
           startDate: ['', Validators.required],
@@ -53,7 +56,17 @@ export class ProductDetailsComponent implements OnInit {
   }
 
   onSubmit({value, valid}:{value: PurchaseOrder, valid: boolean}){
-    console.log(value, valid);
+    this.alerService.success(`
+      Request for ${value.name} rental has been sent From:
+      ${value.rentalPeriod.startDate['formatted']}
+      To: ${value.rentalPeriod.endDate['formatted']}
+      `);
+    setTimeout(() => {
+      window.history.back();
+    } , 2000);
+
+    // window.history.back();
+    // console.log(value, valid);
   }
 
 }

@@ -1,40 +1,43 @@
 <div class="row">
   <div class="col-md-4">
-    <img src="{{product.images[0]}}" alt="" height="100%" width="auto" class="img-responsive">
+    <img src="{{product.images[0]}}" alt="" height="800px" width="800px" class="img-responsive">
   </div>
   <div class="col-md-8" style="border: thin">
-    <table class="table">
+    <table class="table table-bordered table-striped">
       <tr>
         <td>
-          <h2> <span class="label label-info">{{product.name}}</span></h2>
+          <h2> <span>{{product.name}}</span></h2>
         </td>
       </tr>
       <tr>
         <td>
-          {{product.description}}
+          <p> <span class="label label-default">Description:</span></p>
+          <p>{{product.description}}</p>
         </td>
       </tr>
       <tr>
         <td>
-          <h3><span class="label label-default">{{product.price | currency:'EUR':true:'2.2-2'}}</span></h3>
+          <h3>Price: <span class="label label-danger">{{product.price | currency:'EUR':true:'2.2-2'}}</span></h3>
         </td>
       </tr>
       <tr>
         <td>
-          <label>Pick Rental Period</label>
           <form novalidate (ngSubmit) = "onSubmit(purchaseOrder)" [formGroup]="purchaseOrder">
+            <legend>Rental Period</legend>
             <div class="form-group" formGroupName="rentalPeriod">
               <div class="col-md-6">
-                Start date: <my-date-picker name="startDate" [options]="dateOptions" formControlName="startDate"></my-date-picker>
+                <label for="startdate">Start Date</label>
+                <my-date-picker name="startDate" [options]="dateOptions" formControlName="startDate" id="startdate"></my-date-picker>
               </div>
               <div class="col-md-6">
-                End date: <my-date-picker name="endDate" [options]="dateOptions" formControlName="endDate"></my-date-picker>
+                <label for="enddate">End Date</label>
+                <my-date-picker name="endDate" [options]="dateOptions" formControlName="endDate" id="enddate"></my-date-picker>
               </div>
             </div>
             <div class="form-group">
-              <input type="submit" class="btn btn-success">
+              <button type="submit" class="btn btn-success btn-block">Request Item</button>
             </div>
-            {{purchaseOrder.value | json }}
+            <!--{{purchaseOrder.value | json }}-->
           </form>
         </td>
       </tr>
@@ -42,6 +45,11 @@
   </div>
 </div>
 <div class="row">
-
+  <div class="col-md-10 col-md-offset-1">
+    <ul class="nav nav-pills nav-justified">
+      <li role="presentation"><a href="">Reviews</a></li>
+      <li role="presentation"><a href="">Gallery?</a></li>
+    </ul>
+  </div>
 </div>
 <button (click)="goBack()"> Back </button>

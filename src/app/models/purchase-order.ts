@@ -1,5 +1,6 @@
 export class PurchaseOrder{
   id: number;
+  name: string;
   rentalPeriod:{
     startDate: Object;
     endDate: Object;
