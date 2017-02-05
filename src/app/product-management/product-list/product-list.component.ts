@@ -10,7 +10,7 @@ import {currentUser} from "../../helpers/global-variables";
 @Component({
   selector: 'product-list',
   templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.sass']
+  styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
 
@@ -25,20 +25,20 @@ export class ProductListComponent implements OnInit {
     this.products = PRODUCTS;
   }
 
-  getAllProducts(){
+  getAllProducts() {
     return this.productService.getPorducts()
       .subscribe(
-        data=>{
-          this.products = data;
-          this.alertService.success('Here you are!')
-        },
-        error => {
-          this.alertService.error( this.toString(error._body));
-          console.log(error);
-        });
+      data => {
+        this.products = data;
+        this.alertService.success('Here you are!');
+      },
+      error => {
+        this.alertService.error(this.toString(error._body));
+        console.log(error);
+      });
   }
 
-  toString(error:any){
+  toString(error: any) {
     return JSON.parse(error).message;
   }
 

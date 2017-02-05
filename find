@@ -1,0 +1,3183 @@
+    1  ls
+    2  brew cask install mactex
+    3  brew cask install skype
+    4  brew install rbenv
+    5  node
+    6  brew search nodejs
+    7  brew search node
+    8  brew install nodejs
+    9  node
+   10  ls
+   11  cd Wo
+   12  cd ..
+   13  ls
+   14  cd Volumes/Wo
+   15  ls
+   16  cd Beach
+   17  ls
+   18  cp *.pub ~/.ssh 
+   19  cp -r *.pub ~/.ssh 
+   20  cp -R *.pub ~/.ssh 
+   21  ls
+   22  ls -la
+   23  cd .ssh
+   24  ssh-keygen
+   25  cd /Users/fotty/.ssh/
+   26  pwd
+   27  mkdir .ssh
+   28  ls
+   29  ls -la
+   30  cd .ssh
+   31  ls
+   32  cp -R bitbucket bitbucket.pub bitbucket2 bitbucket2.pub config digitalOcean  digitalOcean.pub github20 github20.pub github_rsa github_rsa.pub heroku heroku.pub id_rsa id_rsa.pub known_hosts ~/.ssh
+   33  ls
+   34  ssh git@github.com
+   35  ssh com.mutunda
+   36  brew cask install filezilla
+   37  brew cask search office
+   38  brew cask install microsoft-office
+   39  ls
+   40  cd ~
+   41  ls
+   42  brew cask install atom 
+   43  brew cask install microsoft-office
+   44  cd ~
+   45  ls
+   46  atom .zshrc
+   47  cd ~
+   48  ls
+   49  ls -la
+   50  ls
+   51  la
+   52  ls
+   53  rbenv global 2.3.1
+   54  rbevn install 2.3.1
+   55  rbenv install 2.3.1
+   56  brew cask install spotify
+   57  brew cask search flux
+   58  brew cask install flux
+   59  ruby -v
+   60  rbenv install 2.3.1
+   61  rbevn install 2.3.1
+   62  rbenv global 2.3.1
+   63  gem install rails 
+   64  ls
+   65  brew cask search propresenter
+   66  brew cask search propresenter5
+   67  brew cask search propresenter-5
+   68  brew cask search propresent
+   69  brew cask install propresenter
+   70  brew cask uninstall propresenter
+   71  ls
+   72  brew doctor
+   73  brew cask doctor
+   74  brew cask cleanup
+   75  brew cask install microsoft-office
+   76  ls
+   77  brew cask search ethereum
+   78  brew cask search ethereum-wallet install
+   79  brew cask search ethereum-wallet -install
+   80  brew cask -i ethereum-wallet 
+   81  brew cask install ethereum-wallet 
+   82  ls
+   83  ssh git@github.com
+   84  wo
+   85  cd Wo
+   86  cd /Wo
+   87  ls
+   88  cd ..
+   89  ls
+   90  cd ..
+   91  ls
+   92  cd Volumes/Wo
+   93  ls
+   94  cd Chafity
+   95  ls
+   96  bundle 
+   97  ruby -v
+   98  bundle
+   99  gem install bundler
+  100  bundle
+  101  gem install pg -v '0.18.1\nexit
+  102  gem install pg -v '0.18.1'\nexit
+  103  cd ../../Volumes/Wo
+  104  cd Chafity
+  105  gem install pg
+  106  bundle update 
+  107  gem install pg -v '0.18.1'
+  108  sudo gem install pg -v '0.18.1'
+  109  bundle install -h
+  110  bundle install --queit
+  111  bundle install --qeit
+  112  bundle install --quiet
+  113  sudo bundle install --quiet
+  114  lsl
+  115  ls 
+  116  bundle update 
+  117  cd ..
+  118  ls
+  119  rm -rf Chafity
+  120  git clone git@github.com:kenigbolo/Chafity.git
+  121  cd Chafity
+  122  ls
+  123  bundle install
+  124  gem install pg -v '0.18.1'
+  125  sudo gem install pg -v '0.18.1'
+  126  sudo gem install pg -v '0.18.1' -f
+  127  sudo gem install pg -v '0.18.1' \t--ruby=/Users/fotty/.rbenv/versions/2.3.1/bin/$(RUBY_BASE_NAME)
+  128  sudo gem install pg -v '0.18.1' -f
+  129  sudo gem install pg -v '0.18.1' --without-pg-include=${pg-dir}/include
+  130  ls
+  131  atom .
+  132  bundle install --without-production 
+  133  bundle install -h
+  134  bundle install --deployment
+  135  gem install bundler && rbenv rehash
+  136  bundle install --deployment
+  137  gem ls
+  138  gem list
+  139  rbenv install 2.2.2
+  140  ;s
+  141  ls
+  142  cd  .././
+  143  ..
+  144  cd Volumes/Wo/Chafity
+  145  gem install pg
+  146  gem install pg --without-pg-lib=${pg-dir}/lib
+  147  rbenv -h
+  148  rbenv whence
+  149  rbenv whence 2.2.2
+  150  rbenv whence 2.3.1
+  151  rbenv shell
+  152  rbenv which
+  153  rbenv which ruvy
+  154  rbenv which ruby
+  155  sudo chown -R fotty:staff /Users/fotty/.rbenv/versions/2.3.1/bin/ruby
+  156  gem install pg -v '0.18.1'
+  157  sudo chown -R fotty:staff /Users/fotty/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/pg-0.18.1/*
+  158  gem install pg -v '0.18.1'
+  159  sudo gem install pg -v '0.18.1'
+  160  rbenv local 2.2.2
+  161  bundle 
+  162  ruby -v
+  163  bundle install
+  164  rbenv uninstall 2.2.2
+  165  rbenv uninstall 2.3.1
+  166  sudo rbenv uninstall 2.3.1
+  167  brew uninstall rbenv
+  168  \curl -sSL https://get.rvm.io | bash -s stable\n
+  169  source /Users/fotty/.rvm/scripts/rvm
+  170  rvm install ruby-2.2.2
+  171  source /Users/fotty/.rvm/scripts/rvm
+  172  rvm docs generate-ri
+  173  rbenv -h
+  174  rvm -h
+  175  rvm 
+  176  bundle install 
+  177  ruby -v
+  178  gem install bundler 
+  179  bundle install 
+  180  gem install pg -v '0.18.1'
+  181  brew install postgresql
+  182  gem install pg -v '0.18.1'
+  183  bundle install 
+  184  b
+  185  ch development
+  186  b
+  187  ch da
+  188  ch dashboard
+  189  ch dashboard_tweaks
+  190  ch admin
+  191  rails s
+  192  gem install rails 
+  193  rails s
+  194  ch master
+  195  rails s
+  196  rake db:migrate 
+  197  bundle 
+  198  rake db:migrate 
+  199  rails db:migrate 
+  200  rails s
+  201  ch development
+  202  rails s
+  203  d master
+  204  ch admin
+  205  rails s
+  206  gem install bundler
+  207  rails s
+  208  rvm-auto-ruby
+  209  rails s
+  210  sudo gem install bundler
+  211  rails s
+  212  ruby -v
+  213  bundler
+  214  rails s
+  215  rails db:migrate 
+  216  rails s
+  217  mine .
+  218  brew search apptrap
+  219  brew cask install apptrap
+  220  rake routes
+  221  rails routes
+  222  mine .
+  223  cd Wo
+  224  ls
+  225  cd ..
+  226  ls
+  227  cd WO
+  228  cd Volumes/Wo
+  229  ls
+  230  cd Chafity
+  231  ch development
+  232  rails db:migrate 
+  233  rails s
+  234  brew cask install slack
+  235  ls
+  236  cd config
+  237  ls
+  238  bundle exec figaro install
+  239  vim .
+  240  rails s
+  241  mine .
+  242  rails s
+  243  ls
+  244  rails new backend --api 
+  245  ls
+  246  cd backend
+  247  ls
+  248  rails s
+  249  rails s -p 3001
+  250  vim .
+  251  rm -rf .
+  252  ls
+  253  cd ..
+  254  rm -rf backend
+  255  ls
+  256  cd .
+  257  cd ..
+  258  ls
+  259  brew caks search text-maker
+  260  brew caks search tex-maker
+  261  brew caks search texmaker
+  262  brew cask search texmaker
+  263  brew cask install texmaker 
+  264  ls
+  265  cd ~
+  266  brew cask install macdown
+  267  rew install sdl2
+  268  brew install sdl2
+  269  brew doctor
+  270  brew ls
+  271  brew install libogg libvorbis
+  272  rmv
+  273  rvm
+  274  rvm list
+  275  rvm uninstall 2.2.2
+  276  rvm list
+  277  rvm uninstall 2.2.2
+  278  sudo rvm uninstall 2.2.2
+  279  rvm list
+  280  rvm defau;t
+  281  rvm default
+  282  rvm implode
+  283  suod rvm implode
+  284  sudo rvm implode
+  285  cd Documents
+  286  ls
+  287  /Users/fotty/.rvm/
+  288  cd cd
+  289  cd /Users/fotty/.rvm/
+  290  ls
+  291  cd ..
+  292  ls
+  293  ls -la
+  294  rm -rf .rvm/
+  295  sudo rm -rf .rvm/
+  296  ls -la
+  297  cd .rvm
+  298  brew install rbenv
+  299  brew install phantomjs
+  300  sudo gem install gosu
+  301  brew uninstall atom
+  302  brew install atom
+  303  brew cask install atom
+  304  brew cask uninstall --force atom && brew cask install atom
+  305  wo
+  306  cd Volumes/wo
+  307  cd Volumes/Wo
+  308  cd ../
+  309  cd ..
+  310  cd Volumes/Wo
+  311  cd RubyGem
+  312  cd ..
+  313  mv RubyGem RubyGame 
+  314  cd RubyGame
+  315  atom .
+  316  bundle init
+  317  bundle update 
+  318  rvm install 2.2.2
+  319  rbenv install 2.2.2
+  320  rbenv global 2.2.2
+  321  rbenv local 2.2.2
+  322  bundle 
+  323  bundle show 
+  324  bundle install
+  325  touch main.rb
+  326  bundle 
+  327  ruby main.rb
+  328  bundle install
+  329  ruby main.rb
+  330  touch rspec
+  331  rspec
+  332  spec
+  333  mv main.rb src
+  334  ls
+  335  rm rspec
+  336  ls
+  337  rspec
+  338  autotest
+  339  rspec autotest
+  340  autotest --style rspec
+  341  bundle 
+  342  autotest --style rspec
+  343  rspec
+  344  rspec spec
+  345  rspec spec/main_sepc.rb
+  346  ruby -v
+  347  set_alias
+  348  rspec spec/main_sepc.rb
+  349  rb -v
+  350  ruby -v
+  351  bundle 
+  352  rspec 
+  353  bundl e
+  354  bundle
+  355  rspec
+  356  gem install rpsec
+  357  gem install rspec
+  358  gem install gosu
+  359  gem install releasy
+  360  rspec
+  361  rspec spec/main_sepc.rb
+  362  gem install releasy
+  363  gem install texplay
+  364  gem install ashton
+  365  gem install gamebox
+  366  rbven install 2.2.5
+  367  rbenv install 2.2.5
+  368  gem install gamebox
+  369  rbenv local 2.2.5
+  370  gem install gamebox
+  371  gem install chingu
+  372  gem install chipmunk
+  373  gem install opengl
+  374  gem install rmagick
+  375  brew install rmgick
+  376  brew search magic
+  377  brew installimagemagick
+  378  brew install imagemagick
+  379  gem install rmagick
+  380  brew cask search office
+  381  brew cask install microsoft-office
+  382  ssh com.mutunda
+  383  shh com.mutunda
+  384  ls
+  385  shh com.mutunda
+  386  ssh com.mutunda
+  387  ls
+  388  ssh com.mutunda
+  389  node
+  390  df command
+  391  df
+  392  ssh com.mutunda
+  393  brew search ncdu
+  394  brew install ncdu
+  395  ncdu /
+  396  ssh com.mutunda
+  397  Wo
+  398  cd ..
+  399  ls
+  400  cd Volumes
+  401  cd Wo
+  402  ls
+  403  mkdir Ghost_backup 
+  404  cd Ghost_backup
+  405  ls
+  406  cd ..
+  407  ls
+  408  cd ghost
+  409  ls
+  410  cd content
+  411  ls
+  412  cd ..
+  413  cd Ghost
+  414  ls
+  415  cd ..
+  416  ls
+  417  Ghost_backup
+  418  pwd
+  419  $(PWD)
+  420  cat $(PWD)
+  421  ls
+  422  cd ~
+  423  cd .ssh
+  424  ls
+  425  cd ..
+  426  ls
+  427  ssh root@146.185.150.19 
+  428  byebye
+  429  brew search pgsql
+  430  brew search postgres
+  431  brew cask search postgres
+  432  brew cask install postgres
+  433  ssh com.mutunda
+  434  cd .ssh
+  435  ls
+  436  vi config
+  437  cd ..
+  438  ls
+  439  ssh com.mutunda
+  440  ls
+  441  cd .ssh
+  442  ls
+  443  cat id_rsa
+  444  cat id_rsa.pub
+  445  brew cask install filezilla
+  446  cp id_rsa.pub ../Desktop
+  447  cp id_rsa ../Desktop
+  448  ls
+  449  bundle init 
+  450  bundle install
+  451  bundle update 
+  452  mdir spec
+  453  mkdir spec
+  454  mkdir lib
+  455  autotest
+  456  rspec
+  457  autotest
+  458  bundle update 
+  459  autotest
+  460  touch .autotest
+  461  autotest
+  462  bundle exec autotest
+  463  bundle exec rspec
+  464  rspec
+  465  bundle install:rspec
+  466  rspec
+  467  pwd
+  468  rspec
+  469  touch .rspec 
+  470  rspec
+  471  rspec --color 
+  472  rspec 
+  473  autotest
+  474  bunle
+  475  bundle
+  476  autotest
+  477  gem env
+  478  autotest
+  479  gem install zentest
+  480  gem install ZenTest
+  481  autotest
+  482  autotest spec
+  483  autotest 
+  484  autotest spec/mail_spec.rb
+  485  autotest -h
+  486  autotest 
+  487  rspec
+  488  git init 
+  489  touch .gitignore 
+  490  git s
+  491  s
+  492  git add .
+  493  git commit -m
+  494  git commit 
+  495  git commit -m "initial commit"
+  496  rspec:install
+  497  bundle exec rspec:install
+  498  bundle 
+  499  bundle update
+  500  ruby lib/mail.rb
+  501  rspec
+  502  ruby lib/mail.rb
+  503  rspec
+  504  irb
+  505  rspec
+  506  bundle 
+  507  rspec
+  508  bundle update
+  509  irb 
+  510  gem install require 'rest-client'
+  511  gem install 'rest-client'
+  512  irb 
+  513  rspec
+  514  ruby lib/mail.rb
+  515  rspec
+  516  brew cask search dash
+  517  rspec
+  518  ssh com.mutunda
+  519  cd .ssh
+  520  vi config
+  521  ssh com.mutunda
+  522  vi config
+  523  ssh fortunat.mutunda
+  524  vi config
+  525  ssh fortunat.mutunda
+  526  ssh root.mutunda
+  527  ssh fortunat.mutunda
+  528  ssh root.mutunda
+  529  ssh fortunat.mutunda
+  530  cd /
+  531  ls
+  532  cd ~
+  533  ls
+  534  brew cask search teamviewer 
+  535  brew cask install teamviewer 
+  536  ssh root.mutunda
+  537  cd /
+  538  ld
+  539  cd etc/
+  540  ls
+  541  ssh root.mutunda
+  542  git remote add origin git@gitlab.com:mutunda/mailgun-mailer.git
+  543  git add .
+  544  git commit
+  545  git push -u origin master
+  546  touch .gitlab-ci.yml
+  547  git add .
+  548  git commit -m "gitlab ci"
+  549  before_script:
+  550  rspec:
+  551  rubocop:
+  552  git commit -a -m "gitlab ci"
+  553  push master
+  554  git status
+  555  git add .
+  556  git commit -m "ci variables"
+  557  push master
+  558  git add .
+  559  git commit -m "evn variables"
+  560  push master
+  561  cd ..
+  562  ls
+  563  exit
+  564  ls
+  565  rxit
+  566  exit
+  567  cd ../
+  568  ls
+  569  cd  ..
+  570  ls
+  571  cd Volumes
+  572  ls
+  573  cd Wo
+  574  ls
+  575  cd Chafity
+  576  ls
+  577  atom .
+  578  rais db:migrate 
+  579  rails db:migrate 
+  580  ruby -v
+  581  rbenv
+  582  rbenv ls
+  583  rbenv list
+  584  rbenv versions 
+  585  bundle install 
+  586  gem install rack -v '2.0.1'
+  587  bundle install 
+  588  ruby -v
+  589  set_alias
+  590  rbenv -v
+  591  rbenv -h
+  592  rbenv install 2.3.1
+  593  rbenv -h
+  594  rbenv global 2.3.1
+  595  rbenv local 2.2.2
+  596  bundle update 
+  597  bundle install --no-deployment
+  598  ruby -v
+  599  cd ..
+  600  ruby -v
+  601  bundle install
+  602  set_alias
+  603  rbenv init -
+  604  bundle install
+  605  gem install rails
+  606  bundle install
+  607  rbenv rehash
+  608  exit
+  609  ruby -v
+  610  bundle install --no-production 
+  611  bundle install --no-development 
+  612  bundle install
+  613  ruby -v
+  614  bundle install
+  615  rails s
+  616  cucumber
+  617  git pull master:master 
+  618  git remote -v
+  619  pull master:master
+  620  s
+  621  git pull master:master 
+  622  pull master:master
+  623  git stash 
+  624  pull master:master
+  625  ch development
+  626  pull development:development
+  627  d development origin/development
+  628  ch master
+  629  ls
+  630  pull development:development
+  631  ch development
+  632  g fetch
+  633  master
+  634  g branch -d development
+  635  g branch -D development
+  636  pull origin/development
+  637  pull development
+  638  git merge --abort
+  639  g branch development 
+  640  ch development
+  641  pull development
+  642  d
+  643  master
+  644  git merge --abort
+  645  master
+  646  g branch -D development
+  647  git pull origin development
+  648  git merge --abort
+  649  git pull origin development:development
+  650  b
+  651  git merge --abort
+  652  g branch -D development
+  653  b
+  654  g branch -D admin
+  655  git branch -D dashboard
+  656  b
+  657  git branch -D dashboard_tweaks
+  658  b
+  659  ls
+  660  git pull origin development:development
+  661  ch development
+  662  d
+  663  g merge --abort
+  664  brew cask install sourcetree
+  665  cd ..
+  666  ls
+  667  rm -rf Chafity
+  668  git clone git@github.com:kenigbolo/Chafity.git
+  669  cd Chafity
+  670  ch development
+  671  bundle install
+  672  ruby -v
+  673  rbenv local 2.2.2
+  674  bundle install
+  675  bundle update 
+  676  rm Gemfile.lock
+  677  bundle update 
+  678  rbenv init -
+  679  bundle install
+  680  bundle update 
+  681  rbenv rehash
+  682  bundle install
+  683  rials db:migrate 
+  684  rails db:migrate 
+  685  rake -h
+  686  rake -A
+  687  rake db:reload
+  688  rake --tasks
+  689  rake db:structure:load
+  690  rails db:migrate 
+  691  rake --tasks
+  692  rake db:create 
+  693  rails db:migrate 
+  694  rails db:migrate --trace 
+  695  rails db:migrate 
+  696  rails s
+  697  cucumber
+  698  rails s
+  699  rails db:seed
+  700  rake --tasks
+  701  rake db:drop:all
+  702  db:create:all
+  703  rake db:create:all
+  704  rake db:migrate 
+  705  rake db:seed 
+  706  rails s
+  707  bundle install
+  708  rails c
+  709  rails server -e development
+  710  rails db:seed
+  711  rails c
+  712  rake --tasks
+  713  rake db:schema:load
+  714  rails db:seed
+  715  rails c
+  716  irb
+  717  rails --tasks
+  718  rails db:drop:all
+  719  rails db:create:all
+  720  rails db:seed
+  721  s
+  722  git add .
+  723  s
+  724  ch -B search 
+  725  s
+  726  git commit -m "added pg search to allow the user all the search required, now autocomplition and sidebar search remaining  #44"
+  727  push search
+  728  git config --global user.name "Fortunat Mutunda"
+  729  git config --global user.email fotimutunda@gmail.com
+  730  git commit --amend --reset-author
+  731  git config --global -h
+  732  git config --global core.editor "vim"
+  733  git commit --amend --reset-author
+  734  push search
+  735  log
+  736  g log
+  737  rspec
+  738  brew install rubocop
+  739  brew install homebrew/emacs/rubocop-emacs
+  740  gem install rubocop
+  741  rspec
+  742  brew uninstall homebrew/emacs/rubocop-emacs
+  743  git commit -a -m "fixed a bug with the missing 'end', CI should work now    #44 "
+  744  push search
+  745  pull search
+  746  git merge
+  747  git add .
+  748  git merge
+  749  git merge 
+  750  pull search
+  751  git commit 
+  752  pull search
+  753  push search
+  754  rspec
+  755  git status
+  756  git add .
+  757  git commit -m "trying to fix travis"
+  758  push search
+  759  git commit -a -m "trying to fix travis 2.0 "
+  760  push search
+  761  git commit -a -m "trying to fix travis 3.0 "
+  762  push search
+  763  bundle exec cucumber
+  764  ch development
+  765  pull development
+  766  ch -b search_suggestions 
+  767  ssh root.mutunda
+  768  apm install linter-rubocop
+  769  rbenv which rubocop
+  770  open ~/.atom/config.cson
+  771  atom ~/.atom/config.cson
+  772  byebye
+  773  ls
+  774  s
+  775  d
+  776  git commit -m "rubocop and some small fix "
+  777  s
+  778  git commit -a -m "rubocop and some small fix "
+  779  s
+  780  d
+  781  push search_suggestions
+  782  rails s
+  783  '/Applications/Postgres.app/Contents/Versions/9.6/bin'/psql -p5432
+  784  brew info postgres
+  785  rails s
+  786  rake db:create
+  787  rake db:test:prepare
+  788  rails db:migrate 
+  789  rails db:seed
+  790  rials s
+  791  rails s
+  792  rails db:seed
+  793  irb
+  794  cd /
+  795  cd ~fotty
+  796  ls
+  797  cd Desktop
+  798  ls
+  799  touct rand.rb
+  800  touch rand.rb
+  801  atom rand.rb 
+  802  rails db:seed
+  803  rails g migration AddPgTrgmExtensionToDB
+  804  rails db:migrate 
+  805  rails db:rollback
+  806  rails db:rollback --trace
+  807  rails db:seed
+  808  git statua
+  809  git status
+  810  git add .
+  811  rails db:seed
+  812  rails --tasks
+  813  rails db:setup
+  814  rails c
+  815  rails db:setup
+  816  rails c
+  817  rails db:setup
+  818  rails c
+  819  gem install ruby-beautify\n\n
+  820  git add .
+  821  git commit -m "fixed a bug on the search engine "
+  822  git d
+  823  s
+  824  d
+  825  rspec spec/models/user_spec.rb
+  826  cd /Volumes/Wo/Chafity
+  827  rspec spec/models/user_spec.rb
+  828  gem install rspec-autotest
+  829  autotest
+  830  autotest spec/models/user_spec.rb
+  831  bundle 
+  832  autotest spec/models/user_spec.rb
+  833  bundle update 
+  834  bundle --tasks
+  835  bundle -h
+  836  gem install rspec-autotest
+  837  ruby -v
+  838  gem list
+  839  autotest spec/models/user_spec.rb
+  840  rails c
+  841  rspec spec/models/user_spec.rb
+  842  autotest spec/models/user_spec.rb
+  843  autotest spec/models/registration_spec.rb
+  844  s
+  845  bundle install
+  846  bundle update 
+  847  s
+  848  git add Gemfile Gemfile.lock spec/models/user_spec.rb
+  849  s
+  850  git add spec/models/registration_spec.rb
+  851  s
+  852  git commit -m "bux fixes and test improvement "
+  853  push search_suggestions
+  854  bundle update 
+  855  s
+  856  d
+  857  bundle 
+  858  s
+  859  git add Gemfile Gemfile.lock
+  860  git commit -m "fixed issue with autotest"
+  861  push search_suggestions
+  862  rspec spec
+  863  ls
+  864  psql
+  865  rails s
+  866  rails db:migrate 
+  867  psql
+  868  brew list
+  869  brew -h
+  870  brew doctor
+  871  gem install lunchy 
+  872  mkdir -p ~/Library/LaunchAgents
+  873  cp /usr/local/Cellar/postgresql/9.5.4_1/homebrew.mxcl.postgresql.plist ~/Library/LaunchAgents
+  874  launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+  875  launchy start postgres 
+  876  launchy --help
+  877  launchy -a postgres
+  878  lunchy start postgres
+  879  lunchy stop postgres
+  880  lunchy start postgres
+  881  rails db:migrate 
+  882  rspec spec/models/message_spec.rb:5
+  883  rspec spec/models/message_spec.rb:11
+  884  rails c
+  885  rspec spec/models/message_spec.rb:11
+  886  rspec spec/models/message_spec.rb
+  887  rails c
+  888  rails s
+  889  rails c
+  890  rais c
+  891  rails c
+  892  cucumber
+  893  rails c
+  894  heroku create chafity-staging 
+  895  brew search heroku
+  896  brew install heroku 
+  897  heroku login 
+  898  heroku create chafity-staging 
+  899  git push heroku search_suggestions:master
+  900  figaro heroku:set -e production
+  901  heroku open 
+  902  heroku run rake db:setup
+  903  heroku run rake db:migrate
+  904  s
+  905  git add .
+  906  git commit -m "heroku fix "
+  907  git push heroku search_suggestions:master
+  908  heroku run rake db:migrate
+  909  heroku open 
+  910  heroku run rake db:seed
+  911  heroku open 
+  912  s
+  913  d
+  914  git reset --hard HEAD
+  915  push search_suggestions
+  916  ch development
+  917  pull development
+  918  ch search_suggestions
+  919  merge_with development
+  920  git commit 
+  921  git add .
+  922  git commit 
+  923  merge_with development
+  924  push search_suggestions
+  925  ch development 
+  926  ch search_suggestions
+  927  bundle update 
+  928  s
+  929  d
+  930  bundle update 
+  931  s
+  932  d development
+  933  push development
+  934  ch development
+  935  pull development
+  936  ch search_suggestions
+  937  merge_with development
+  938  bundle update 
+  939  merge_with development
+  940  s
+  941  git add .
+  942  git commit 
+  943  s
+  944  bundle update 
+  945  s
+  946  git add .
+  947  git commit 
+  948  push search_suggestions
+  949  git push heroku development:master
+  950  ch development
+  951  pull development
+  952  git push heroku development:master
+  953  rake db:setup
+  954  rake db:seed
+  955  b
+  956  g -a -m "fixed issue on the dashboard"
+  957  gc -a -m "fixed issue on the dashboard"
+  958  git push heroku development:master
+  959  git pull origin polish_design:polish_design
+  960  git log
+  961  git reset --hard HEAD~1
+  962  log
+  963  ch polish_design
+  964  pull polish_design
+  965  pull development
+  966  b
+  967  ch search_suggestions
+  968  ch development
+  969  pull development
+  970  ch -b select_charity
+  971  rails c
+  972  rials c
+  973  rails c
+  974  brew uninstall slack 
+  975  brew cask uninstall slack 
+  976  brew cask install slack 
+  977  ls
+  978  s
+  979  d
+  980  emacs
+  981  ping mutunda.com 
+  982  ls
+  983  brew cask search photoshop 
+  984  brew cask search adobe
+  985  brew cask install vlc
+  986  ls
+  987  brew install poppler
+  988  brew install ghostscript djvulibre
+  989  brew install libtiff\n
+  990  ls
+  991  brew search termpdf
+  992  brew doctor
+  993  brew missing
+  994  brew link 
+  995  brew link ghostscript
+  996  brew link --overwrite ghostscript
+  997  sudo brew link --overwrite ghostscript
+  998  brew
+  999  launchy start postgres
+ 1000  ruby -v
+ 1001  brew cask install deluge
+ 1002  brew doctor
+ 1003  launchy starp psql
+ 1004  gem install launchy
+ 1005  launchy starp psql
+ 1006  launchy start psql
+ 1007  breq -h
+ 1008  brew --h
+ 1009  brew -h
+ 1010  brew home
+ 1011  brew doctor -h
+ 1012  brew doctor
+ 1013  brew update 
+ 1014  brew doctor
+ 1015  ¬ls
+ 1016  ls
+ 1017  ¬
+ 1018  ls
+ 1019  cd ghost
+ 1020  ls
+ 1021  cat index.js
+ 1022  ssh root.mutunda
+ 1023  cd ~
+ 1024  exit
+ 1025  brew cask search bpm
+ 1026  brew cask search bpmm
+ 1027  brew cask search camunda
+ 1028  brew cask install camunda-modeler
+ 1029  ruby -v
+ 1030  gem install sinatra
+ 1031  ls
+ 1032  cd /
+ 1033  ls
+ 1034  cd ~
+ 1035  brew cask uninstall 
+ 1036  brew cask uninstall slack 
+ 1037  brew cask install slack 
+ 1038  brew cask install tor
+ 1039  brew cask search torproject
+ 1040  cd /
+ 1041  ls
+ 1042  cd Volumes
+ 1043  ls
+ 1044  cd Wo
+ 1045  ls
+ 1046  Ch
+ 1047  cd Chafity
+ 1048  ls
+ 1049  master
+ 1050  d
+ 1051  s
+ 1052  ch master
+ 1053  d
+ 1054  s
+ 1055  d
+ 1056  git stash 
+ 1057  maste
+ 1058  master
+ 1059  pull master 
+ 1060  d
+ 1061  s
+ 1062  rails db -h
+ 1063  rails tasks
+ 1064  rails db tasks
+ 1065  launchy postgres
+ 1066  launchy postgres start
+ 1067  launchy --help
+ 1068  launchy postgres start
+ 1069  lunchy start postgres\n
+ 1070  rails s
+ 1071  rails db:migrate
+ 1072  rake db:seed
+ 1073  atom .
+ 1074  s
+ 1075  d
+ 1076  s
+ 1077  ch -b semantic_edit 
+ 1078  bundle 
+ 1079  bundle update 
+ 1080  rails destroy administrate:install
+ 1081  rails s
+ 1082  rails db:seed
+ 1083  rails c
+ 1084  gem install cloudinary\n
+ 1085  rails g migration add_language_to_user languages
+ 1086  rails db:migrate 
+ 1087  rails db:rollback
+ 1088  rails db:migrate 
+ 1089  rails db: --tasks
+ 1090  rails db:setup
+ 1091  rails db:seed
+ 1092  rails db:setup
+ 1093  rails c
+ 1094  rails db: --tasks
+ 1095  rails db:reset
+ 1096  rails db:setup
+ 1097  bundle 
+ 1098  rails s
+ 1099  rails db:seed
+ 1100  rails c
+ 1101  rails db:seed
+ 1102  rails routes
+ 1103  rails c
+ 1104  mine .
+ 1105  bundle 
+ 1106  git commit -a -m "s got real #39"
+ 1107  push semantic_edit
+ 1108  heroku apps
+ 1109  git remote -v
+ 1110  git push heroku semantic_edit:master 
+ 1111  ch development
+ 1112  s
+ 1113  git add .
+ 1114  git commit -m "border radius search reslut "
+ 1115  ch development
+ 1116  merge_with semantic_edit
+ 1117  git merge --abort
+ 1118  pull development
+ 1119  git merge --abort
+ 1120  git reset --hard HEAD~4
+ 1121  pull development
+ 1122  git push heroku development:master 
+ 1123  git diff master
+ 1124  g diff development heroku/master
+ 1125  heroku -h
+ 1126  heroku destroy
+ 1127  heroku destroy --confirm chafity-staging
+ 1128  heroku create chafity-staging 
+ 1129  git push heroku development:master 
+ 1130  heroku run rake db:setup
+ 1131  heroku run rake db:migrate 
+ 1132  git add .
+ 1133  git commit -m "fixing this silly pg issue again"
+ 1134  git push heroku development:master 
+ 1135  heroku run rake db:seed
+ 1136  heroku run rake db:migrate
+ 1137  heroku run rake db:seed
+ 1138  git commit -a -m "factory chick"
+ 1139  git push heroku development:master 
+ 1140  heroku run rake db:seed
+ 1141  git commit -a -m "factory chick 1.0"
+ 1142  git push heroku development:master 
+ 1143  heroku run rake db:seed
+ 1144  heroku open 
+ 1145  heroku -h
+ 1146  heroku ps
+ 1147  heroku logs
+ 1148  rails db:seed
+ 1149  git commit -a -m "fxing the admin fool"
+ 1150  git push heroku development:master 
+ 1151  heroku logs
+ 1152  heroku open
+ 1153  figaro heroku:set -e production
+ 1154  rails s
+ 1155  rails c
+ 1156  ls
+ 1157  d
+ 1158  s
+ 1159  ch semantic_edit
+ 1160  git add .
+ 1161  git commit -m "small UI fixes"
+ 1162  git commit -h 
+ 1163  git commit --amend -m"small UI fixes #39"
+ 1164  push semantic_edit
+ 1165  git push heroku development:master 
+ 1166  git push heroku semantic_edit:master 
+ 1167  heroku destroy 
+ 1168  heroku destroy --confirm chafity-staging
+ 1169  heroku create chafity-staging 
+ 1170  git push heroku semantic_edit:master && heroku run rake db:migrate && heroku run rake db:seed && heroku open 
+ 1171  git commit -a -m "pg you fool"
+ 1172  git push heroku semantic_edit:master
+ 1173  heroku run rake db:migrate 
+ 1174  heroku run rake db:seed
+ 1175  git commit --amend -m "pg you fool"
+ 1176  s
+ 1177  git add .
+ 1178  git commit -m "factory chick"
+ 1179  git push heroku semantic_edit:master
+ 1180  s
+ 1181  heroku destroy 
+ 1182  heroku destroy --confirm chafity-staging
+ 1183  heroku create chafity-staging 
+ 1184  git push heroku semantic_edit:master && heroku run rake db:migrate && heroku run rake db:seed && heroku open 
+ 1185  heroku logs 
+ 1186  git commit -a -m "admin you fool "
+ 1187  git push heroku semantic_edit:master && heroku run rake db:migrate && heroku run rake db:seed && heroku open 
+ 1188  ch -b uifixes
+ 1189  push uifixes
+ 1190  git add .
+ 1191  git commit -m "small UI fixes in search "
+ 1192  push uifixes
+ 1193  git push heroku uifixes:master && heroku run rake db:migrate && heroku run rake db:seed && heroku open 
+ 1194  figaro heroku:set -e production
+ 1195  cd Desktop 
+ 1196  cd /
+ 1197  cd ~
+ 1198  cd Desktop
+ 1199  ls
+ 1200  wget
+ 1201  brew install wget
+ 1202  wget -r http://www.semantickit.com/themes/7-coming-soon-landing-page/preview
+ 1203  ls
+ 1204  cd www.semantickit.com
+ 1205  ls
+ 1206  cd themes
+ 1207  ls
+ 1208  cd 7-coming-soon-landing-page
+ 1209  ls
+ 1210  LS
+ 1211  CAT preview
+ 1212  CD -
+ 1213  ls
+ 1214  cd -
+ 1215  ls
+ 1216  open 7-coming-soon-landing-page
+ 1217  node 
+ 1218  ls
+ 1219  iojs
+ 1220  nvm
+ 1221  npm install -g nvm 
+ 1222  nvm
+ 1223  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+ 1224  wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+ 1225  npm uninstall -g nvm 
+ 1226  wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+ 1227  sudo wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+ 1228  chown fotty:staff -r /Users/fortunatmutunda/.nvm
+ 1229  chown fotty:staff -R /Users/fortunatmutunda/.nvm
+ 1230  chown fotty:staff  /Users/fortunatmutunda/.nvm
+ 1231  chown fotty:staff -R  /Users/fortunatmutunda/
+ 1232  chown fotty:staff -R  $(PWD)
+ 1233  chown -R fotty:staff $(PWD)
+ 1234  sudo wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+ 1235  chown -R fotty:staff /Users/fortunatmutunda/.nvm
+ 1236  chown -R fotty:staff /Users/fortunatmutunda/
+ 1237  mkdir /Users/fortunatmutunda/.nvm
+ 1238  cd /
+ 1239  ls
+ 1240  mkdir /Users/fortunatmutunda/.nvm
+ 1241  cd Users
+ 1242  ld
+ 1243  ls
+ 1244  cd fotty
+ 1245  ls
+ 1246  ls -l
+ 1247  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+ 1248  brew search nvm
+ 1249  brew install nvm 
+ 1250  nvm
+ 1251  mkdir ~/.nvm
+ 1252  set_alias
+ 1253  nvm help
+ 1254  brew install nvm 
+ 1255  nvm
+ 1256  node
+ 1257  node -v
+ 1258  nvm ls-remote
+ 1259  node -v
+ 1260  nvm install v6.9.1
+ 1261  nvode -v
+ 1262  node -v
+ 1263  node
+ 1264  exit
+ 1265  exit 
+ 1266  ls
+ 1267  cd Downloads
+ 1268  ls
+ 1269  cd seminar-blockchain-lgarcia
+ 1270  npm install
+ 1271  npm start 
+ 1272  cat package.json
+ 1273  ls
+ 1274  atom .
+ 1275  testrpc
+ 1276  npm npm install -g ethereumjs-testrpc
+ 1277  npm install -g ethereumjs-testrpc
+ 1278  testrpc
+ 1279  node deploy_contract.js
+ 1280  geth
+ 1281  brew tap ethereum/ethereum\nbrew install ethereum\n
+ 1282  brew install ethereum
+ 1283  brew install ethereum --devel
+ 1284  brew install gmp go
+ 1285  geht
+ 1286  geth
+ 1287  geth -h
+ 1288  brew install gitter
+ 1289  brew install Caskroom/cask/gitter
+ 1290  cd /
+ 1291  node
+ 1292  ls
+ 1293  python3
+ 1294  python
+ 1295  brew search bible
+ 1296  pip search bible
+ 1297  pip
+ 1298  which pip
+ 1299  pip3
+ 1300  brew install pip
+ 1301  ssh mutunda.com
+ 1302  pwd
+ 1303  cd .ssh
+ 1304  cat known_hosts
+ 1305  atom known_hosts
+ 1306  ssh mutunda.com
+ 1307  ssh roo@mutunda.com
+ 1308  ssh root@mutunda.com
+ 1309  wo
+ 1310  cd /
+ 1311  cd Volumes/Wo
+ 1312  ls
+ 1313  mkdir 
+ 1314  mkdir landing_page
+ 1315  cd landing_page
+ 1316  atom .
+ 1317  brew search jetbrains
+ 1318  brew cask install jetbrains-toolbox
+ 1319  ssh mutunda.com
+ 1320  ssh root@mutunda.com
+ 1321  ssh-keygen -R com.mutunda 
+ 1322  ssh-keygen -R 95.85.10.77
+ 1323  ssh com.mutunda
+ 1324  cd /
+ 1325  cd Volumes/Wo
+ 1326  ls
+ 1327  cd ~
+ 1328  ls
+ 1329  cd /
+ 1330  cd ~
+ 1331  cd .ssh
+ 1332  ls
+ 1333  cat config
+ 1334  ssh root.mutunda
+ 1335  brew cask install sqliteborwser 
+ 1336  brew cask install sqlitebrowser 
+ 1337  cd /
+ 1338  cd Volumes/Wo
+ 1339  ls
+ 1340  cd Chafity
+ 1341  ls
+ 1342  cd app
+ 1343  ls
+ 1344  cd assets
+ 1345  ls
+ 1346  cd javascripts
+ 1347  ls
+ 1348  cat application.js
+ 1349  ssh root.mutunda
+ 1350  ls
+ 1351  cd /
+ 1352  python
+ 1353  irb
+ 1354  python
+ 1355  ls
+ 1356  cd /Volumes/Wo
+ 1357  mkdir project_tania
+ 1358  cd project_tania
+ 1359  npm init 
+ 1360  ls
+ 1361  ls -l
+ 1362  ls -la
+ 1363  cat package.json
+ 1364  cd ..
+ 1365  git clone https://github.com/davezuko/react-redux-starter-kit.git
+ 1366  ls
+ 1367  mv react-redux-starter-kit project_no_name 
+ 1368  cd project_no_name
+ 1369  npm install
+ 1370  atom .
+ 1371  npm dev
+ 1372  npm start
+ 1373  wstorm .
+ 1374  git reset --hard HEAD
+ 1375  cd ..
+ 1376  ls
+ 1377  wstorm project_no_name
+ 1378  ls
+ 1379  g remote -v
+ 1380  g remote -h
+ 1381  g remote remove origin 
+ 1382  g remote -v
+ 1383  git remote add origin git@github.com:FottyM/project_no_name.git
+ 1384  git push -u origin master
+ 1385  ls
+ 1386  g remote -v
+ 1387  push master
+ 1388  push -U master
+ 1389  git push origin master 
+ 1390  git commit .
+ 1391  git add .
+ 1392  git commit -m "initial commit 2.0 "
+ 1393  push master
+ 1394  git init 
+ 1395  g log
+ 1396  ls -la
+ 1397  rm -r .git
+ 1398  g log
+ 1399  git init 
+ 1400  git remote add origin  git@github.com:FottyM/project_no_name.git
+ 1401  git remote -v
+ 1402  git commit -a -m "initial commit " -f 
+ 1403  git commit -a -m "initial commit " 
+ 1404  git commit -a -m "initial commit" 
+ 1405  git add .
+ 1406  git commit -a -m "initial commit" 
+ 1407  git push origin master 
+ 1408  git push origin master -f
+ 1409  npm start
+ 1410  cd Chafity
+ 1411  rails s
+ 1412  ch development 
+ 1413  ls
+ 1414  pull development
+ 1415  mine .
+ 1416  pull development
+ 1417  s
+ 1418  ch -b ransack
+ 1419  rails db:seed
+ 1420  rails db:migrate 
+ 1421  rails s
+ 1422  bundle 
+ 1423  rails g controller searches
+ 1424  rails routes
+ 1425  rails c
+ 1426  rails db:migrate 
+ 1427  rails s
+ 1428  rails d controller searches
+ 1429  git commit -a -m "adavnced search 1.0"
+ 1430  s
+ 1431  git log
+ 1432  d
+ 1433  s
+ 1434  git add .
+ 1435  git commit -a -m "search model with virtus gem "
+ 1436  git commit -a -m "advanced search tweaks 1.5"
+ 1437  s
+ 1438  git commit -a -m "advanced search tweaks 1.5 #86"
+ 1439  push ransack
+ 1440  rails 
+ 1441  rails s
+ 1442  l
+ 1443  loh
+ 1444  log
+ 1445  g log
+ 1446  s
+ 1447  git add .
+ 1448  git stash
+ 1449  ch master
+ 1450  pull master
+ 1451  rails s
+ 1452  bundle 
+ 1453  rbenv local 2.3.1
+ 1454  bundle 
+ 1455  gem install bundler
+ 1456  bundle 
+ 1457  g log
+ 1458  ch ransack
+ 1459  git stash pop
+ 1460  rails db
+ 1461  rails s
+ 1462  git commit -a -m "advanced search... continue #86"
+ 1463  s
+ 1464  b
+ 1465  irb
+ 1466  bundle 
+ 1467  rails s
+ 1468  rails g controller searches 
+ 1469  rails s
+ 1470  s
+ 1471  git add .
+ 1472  git commit -a -m "advanced search plus autocomplete v1.00 #86"
+ 1473  s
+ 1474  push ransack
+ 1475  rails 
+ 1476  rails c
+ 1477  s
+ 1478  d
+ 1479  git add .
+ 1480  git commit -a -m "rogbor search works now need to add js for the better looks  #86"
+ 1481  push ransack
+ 1482  s
+ 1483  d
+ 1484  heroku -h
+ 1485  heroku apps
+ 1486  hereoku create chafity-ninja 
+ 1487  heroku create chafity-ninja 
+ 1488  git push heroku ransack:master 
+ 1489  heroku run rake db:migrate
+ 1490  heroku chafity-ninja run rake db:migrate
+ 1491  heroku run rake db:migrate chafity-ninja
+ 1492  heroku -h
+ 1493  heroku run -h
+ 1494  heroku run rake db:migrate -a chafity-ninja 
+ 1495  heroku open -a chafity-ninja 
+ 1496  heroku create chafity-ninja 
+ 1497  heroku run rake db:migrate -a chafity-ninja 
+ 1498  heroku logs  -a chafity-ninja 
+ 1499  heroku destroy  -a chafity-ninja 
+ 1500  heroku destroy  -a chafity-ninja --confirm chafity-ninja
+ 1501  s
+ 1502  d
+ 1503  pwd
+ 1504  ..
+ 1505  git clone git@github.com:naomiaro/raadwaves.git
+ 1506  cd raadwaves
+ 1507  bundle 
+ 1508  gem install json
+ 1509  bundle 
+ 1510  gem install json -v '1.8.1'
+ 1511  brew seach json
+ 1512  brew search json
+ 1513  gem install json -v '1.8.1'
+ 1514  gem install json -v 1.8.3
+ 1515  bundle update 
+ 1516  rails s -p 8000
+ 1517  rails s
+ 1518  rails c
+ 1519  rails server
+ 1520  pwd
+ 1521  ls
+ 1522  vim .
+ 1523  cd ../raadwaves
+ 1524  bundle exec rails s
+ 1525  rspec
+ 1526  rails s
+ 1527  ls
+ 1528  atom .
+ 1529  ruby config.ru
+ 1530  rails s
+ 1531  rails server 
+ 1532  bin/rails s
+ 1533  ls
+ 1534  bin/rails
+ 1535  bin/rails server 
+ 1536  rails about
+ 1537  rails about 
+ 1538  cd ..
+ 1539  ls
+ 1540  cd raadwaves
+ 1541  rails s
+ 1542  rails 
+ 1543  rails s
+ 1544  s
+ 1545  git commit -m "fixed some of the UI mess and added charity select and other small UI fixed nothing major #86"
+ 1546  git commit -a -m "fixed some of the UI mess and added charity select and other small UI fixed nothing major almost there  #86"
+ 1547  s
+ 1548  push ransack
+ 1549  rails s
+ 1550  rails routes
+ 1551  irb
+ 1552  rails c
+ 1553  git add ,
+ 1554  git add .
+ 1555  git commit -a -m "fixed edit UI and index UI, some fixation needed for the search functionality regarding the filling in the blank for the search fields...etc #86"
+ 1556  push ransack
+ 1557  git commit -a -m "Allow user to select their own charities #55"
+ 1558  push ransack
+ 1559  rails c
+ 1560  rails s
+ 1561  brew install redis
+ 1562  Rails c
+ 1563  rails c
+ 1564  rails sb
+ 1565  rails db
+ 1566  rails s
+ 1567  rails db
+ 1568  git commit -a -m "UI fixes and anhanced search #86"
+ 1569  push ransack
+ 1570  cd ~/Downloads
+ 1571  ls
+ 1572  unzip Crash\ Bandicoot\ 2\ -\ Cortex\ Strikes\ Back 
+ 1573  unzip -h
+ 1574  brew search 7z
+ 1575  brew install p7zip
+ 1576  unzip Crash\ Bandicoot\ 2\ -\ Cortex\ Strikes\ Back\ \(USA\).7z
+ 1577  mv Crash\ Bandicoot\ 2\ -\ Cortex\ Strikes\ Back\ \(USA\).7z crash.7z.zip
+ 1578  ls
+ 1579  unzip crash.7z.zip
+ 1580  mv crash.7z.zip crash.7z
+ 1581  7z l crash.7z
+ 1582  ls
+ 1583  open .
+ 1584  7z x crash.7z
+ 1585  cp Crash\ Bandicoot\ 2\ -\ Cortex\ Strikes\ Back\ \(USA\).bin /Volumes/UNTITLED/retropie/roms/psx
+ 1586  cp Crash\ Bandicoot\ 2\ -\ Cortex\ Strikes\ Back\ \(USA\).cue /Volumes/UNTITLED/retropie/roms/psx
+ 1587  cd /Volumes/UNTITLED/retropie/roms/psx
+ 1588  ls
+ 1589  cd ..
+ 1590  ls
+ 1591  ls -al 
+ 1592  cd /
+ 1593  ls
+ 1594  cd ~/Downloads
+ 1595  ls
+ 1596  cd /Volumes/UUI
+ 1597  ls
+ 1598  cp ~/Downloads/*.sfc /Volumes/UUI/retropie/roms/snes
+ 1599  pwd
+ 1600  ls
+ 1601  cd /
+ 1602  brew cask search outlook
+ 1603  brew search outlook
+ 1604  brew search office
+ 1605  brew install Caskroom/cask/microsoft-office
+ 1606  ls
+ 1607  cat installer.failurerequests
+ 1608  rails g migration add_languagues_to_users languages
+ 1609  rails db:migrate 
+ 1610  git add .
+ 1611  rails d migration add_languagues_to_users languages
+ 1612  rails db:migrate 
+ 1613  rails g migration add_languagues_to_users languages
+ 1614  git add .
+ 1615  git commit -m "add languages "
+ 1616  push ransack
+ 1617  bin/rails db:migrate RAILS_ENV=test
+ 1618  rails d migration add_languagues_to_users languages
+ 1619  rails g migration add_languagues_to_users languages
+ 1620  rails db:migrate:down VERSION=20161130170722
+ 1621  rails db:migrate VERSION=20161130170722
+ 1622  rails db:migrate:down VERSION=20161130170722
+ 1623  rails db:migrate:up VERSION=20161130170722
+ 1624  rails db:migrate
+ 1625  rails d migration add_languagues_to_users languages
+ 1626  rials db:migrate 
+ 1627  rails db:migrate
+ 1628  rails g migration remove_languagues_to_users languages
+ 1629  rails db:migrate 
+ 1630  rails g migration add_languagues_to_users languages
+ 1631  rails db:migrate 
+ 1632  git commit -a -m "Ninja migration "
+ 1633  push ransack 
+ 1634  ch development
+ 1635  pull development
+ 1636  merge_with ransack
+ 1637  bundle update 
+ 1638  git commit 
+ 1639  git add .
+ 1640  git commit 
+ 1641  s
+ 1642  push development
+ 1643  ch ransack
+ 1644  merge_with development
+ 1645  push ransack
+ 1646  rails db:migrate 
+ 1647  ch development
+ 1648  ch development 
+ 1649  cd .git
+ 1650  ls
+ 1651  ls -la
+ 1652  find .lock
+ 1653  find -R .lock
+ 1654  find  .lock
+ 1655  grep  .lock
+ 1656  git rm .git/index.lock
+ 1657  cd ..
+ 1658  git rm .git/index.lock
+ 1659  cd .git
+ 1660  find *.lock
+ 1661  rm index.lock
+ 1662  cd ..
+ 1663  git s
+ 1664  git 
+ 1665  ch development
+ 1666  pull development
+ 1667  rails db:migrate 
+ 1668  pull development
+ 1669  rails db
+ 1670  rails db: -h
+ 1671  rails db:setup 
+ 1672  rails db:seed
+ 1673  rails c
+ 1674  rails db:seed
+ 1675  s
+ 1676  d
+ 1677  pull development
+ 1678  git reset --hard HEAD
+ 1679  pull development
+ 1680  rails db:migrate 
+ 1681  rails db:seed
+ 1682  ch -b messages-modal 
+ 1683  rails s
+ 1684  rails db:migrate 
+ 1685  rails db:setup
+ 1686  bundle exec rails db:drop db:create db:migrate db:seed
+ 1687  launchy -h
+ 1688  launchy postgres stop 
+ 1689  lunchy stop postgres 
+ 1690  rbenv local 2.3.1
+ 1691  lunchy stop postgres 
+ 1692  launchy stop postgres 
+ 1693  launchy postgres stop 
+ 1694  rake db: -h
+ 1695  rake db -h
+ 1696  rake db: -tasks
+ 1697  rake db: --tasks
+ 1698  rake db:drop
+ 1699  rake db:drop -f
+ 1700  byebye
+ 1701  rake db:drop 
+ 1702  bundle exec rake db:create db:migrate db:seed
+ 1703  rake --tasks
+ 1704  rails s
+ 1705  atom .
+ 1706  rails s
+ 1707  s
+ 1708  git add .
+ 1709  git commit -m "send message from search straight #86"
+ 1710  push messages-modal
+ 1711  rails s
+ 1712  rails c
+ 1713  rails s
+ 1714  git add .
+ 1715  git commit -m "send first messages from search results "
+ 1716  rspec 
+ 1717  rspec spec/models/message_spec.rb
+ 1718  rspec spec/
+ 1719  git commit -a -m "fixed expected broken spec"
+ 1720  push messages-modal
+ 1721  ch development
+ 1722  pull development
+ 1723  rails db:migrate 
+ 1724  ruby -v
+ 1725  bundle update 
+ 1726  rails db:migrate 
+ 1727  bundle exec rails db:drop db:create db:migrate db:seed
+ 1728  launchy stop postgres
+ 1729  launchy postgres stop
+ 1730  launchy --help
+ 1731  launchy -a postgres
+ 1732  launchy -a postgresql
+ 1733  launchy -a postgresql stop
+ 1734  launchy stop  postgresql 
+ 1735  launchy start postgresql 
+ 1736  launchy postgresql stop 
+ 1737  brew services 
+ 1738  brew services list
+ 1739  brew services stop postgresql
+ 1740  brew services start postgresql
+ 1741  bundle exec rails db:drop db:create db:migrate db:seed
+ 1742  brew services start postgresql
+ 1743  brew services restart postgresql
+ 1744  bundle exec rails db:drop db:create db:migrate db:seed
+ 1745  brew services
+ 1746  byebye
+ 1747  bundle exec rails db:drop db:create db:migrate db:seed
+ 1748  rails s
+ 1749  s
+ 1750  git reset --hard HEAD
+ 1751  ch messages-modal
+ 1752  ch development
+ 1753  pull development
+ 1754  rails db:drop db:setup
+ 1755  rails s
+ 1756  rails db:drop db:setup
+ 1757  rails
+ 1758  rails s
+ 1759  rails c
+ 1760  s
+ 1761  ch -b messages-ui-fix 
+ 1762  s
+ 1763  d
+ 1764  git add .
+ 1765  git commit -m "ui fixes step one #101"
+ 1766  push messages-ui-fix
+ 1767  min .
+ 1768  mine .
+ 1769  s
+ 1770  gc -a -m "addtional UI fixes #101"
+ 1771  s
+ 1772  push messages-ui-fix
+ 1773  ls
+ 1774  rails s
+ 1775  pwd
+ 1776  exit
+ 1777  cd /Volumes/Wo
+ 1778  cd..
+ 1779  ls
+ 1780  cd Chafity
+ 1781  master
+ 1782  pull master
+ 1783  rails db:drop
+ 1784  rails db:setup 
+ 1785  ch development
+ 1786  pull development
+ 1787  ch -b devise-flash-message 
+ 1788  atom .
+ 1789  rails s
+ 1790  s
+ 1791  git add .
+ 1792  gc -m "#113 now we can see better messages when we do some operations, like updating or sending messages etc..."
+ 1793  push devise-flash-message
+ 1794  s
+ 1795  rails db:seed
+ 1796  cd ..
+ 1797  git clone git@gitlab.com:mutunda/drozo.git
+ 1798  _oh_my_zsh\t
+ 1799  upgrade_oh_my_zsh\t
+ 1800  docker-compose build 
+ 1801  cd drozo
+ 1802  docker-compose build 
+ 1803  ssh root.mutunda
+ 1804  docker-compose up
+ 1805  lsof -wni tcp:3000
+ 1806  kill -30008\n: 1481572557:0;kill -30008 PID
+ 1807  kill -30008 PID -f
+ 1808  kill -9 $(lsof -i tcp:3000 -t)\n\n
+ 1809  kill -9 $(lsof -i tcp:3000 -t)
+ 1810  lsof -wni tcp:3000
+ 1811  docker-compose up
+ 1812  docker-compose run web rails db:setup 
+ 1813  atom .
+ 1814  rsense start --port 47367 --path .\n/bin/sh: /Users/fotty/.gem/ruby/2.3.0/bin/rsense
+ 1815  rsense start --port 47367 --path . /Users/fotty/.gem/ruby/2.3.0/bin/rsense
+ 1816  rsense start --port 47367 --path /Users/fotty/.gem/ruby/2.3.0/bin/rsense
+ 1817  docker-compose build 
+ 1818  docker-compose up
+ 1819  git add .
+ 1820  gc -m "fixed the issue with docker compose and redid the readme, I no longer need to add the thingy... links: -db"
+ 1821  push master
+ 1822  push master:docker-fix
+ 1823  ssh root.mutunda
+ 1824  cd ..
+ 1825  mkdir bhm-front
+ 1826  ls
+ 1827  cd bhm-front
+ 1828  touch Dockerfile
+ 1829  atom .
+ 1830  docker build 
+ 1831  docker build -t FottyM:bhm-front:0.1
+ 1832  docker build -t FottyM/bhm-front:0.1
+ 1833  docker build -t fottym/bhm-front:0.1
+ 1834  docker build -t fottym/bhm-front:0.1 .
+ 1835  touch docker-compose.yaml
+ 1836  docker-compose build 
+ 1837  docker-compose run web ng create 
+ 1838  docker-compose run web ng new 
+ 1839  docker-compose run web ng new bhm-front 
+ 1840  docker-compose run web ng new .
+ 1841  docker ps -a
+ 1842  docker images
+ 1843  docker rmi d21a567adb53
+ 1844  docker rmi d21a567adb53 -f
+ 1845  docker rmi 83f5445948c6 -f
+ 1846  docker images
+ 1847  docker-compose run web ng new .
+ 1848  docker-compose build 
+ 1849  docker-compose up
+ 1850  docker-compose web run ng new .
+ 1851  docker-compose run web ng new .
+ 1852  docker-compose run web ng init 
+ 1853  docker-compose run web ng init .
+ 1854  docker-compose run web ng init bhm-front 
+ 1855  docker-compose run web ng init .
+ 1856  docker-compose build 
+ 1857  docker-compose run web ng init 
+ 1858  docker-compose build 
+ 1859  docker-compose up
+ 1860  docker-compose up --builld
+ 1861  docker-compose up --force-recreate
+ 1862  docker-compose run web ng init 
+ 1863  docker-compose up --builld
+ 1864  docker-compose build
+ 1865  docker-compose up
+ 1866  docker-compose build 
+ 1867  docker ps -a
+ 1868  docker images
+ 1869  docker rmi 70410d8edd3a
+ 1870  docker rmi 70410d8edd3a -f
+ 1871  docker rmi 24e5ef15c259 -f
+ 1872  docker images
+ 1873  docker rmi 010d7603b6ed -f
+ 1874  docker images
+ 1875  docker rmi f3513542df47 -f
+ 1876  docker images
+ 1877  docker-compose build 
+ 1878  ng init --help
+ 1879  docker-compose build 
+ 1880  docker-compose up
+ 1881  docker-compose build 
+ 1882  java -v
+ 1883  java -version 
+ 1884  brew install java
+ 1885  brew cask install java
+ 1886  java -v
+ 1887  java -version
+ 1888  cd /Volumes/Wo
+ 1889  ls
+ 1890  git clone git@github.com:FottyM/sharem_frontend.git
+ 1891  cd sharem_frontend
+ 1892  ls
+ 1893  docker-compose build 
+ 1894  docker images
+ 1895  docker ps -a
+ 1896  atom .
+ 1897  wstorm .
+ 1898  docker-compose up
+ 1899  ls
+ 1900  cd ..
+ 1901  rm sharem_frontend
+ 1902  rm -r sharem_frontend
+ 1903  rm -rf sharem_frontend
+ 1904  git clone git@github.com:FottyM/sharem_frontend.git
+ 1905  cd sharem_frontend
+ 1906  ls
+ 1907  wstorm .
+ 1908  ls
+ 1909  atom ,
+ 1910  wstorm .
+ 1911  docker-compose build 
+ 1912  docker-compose up 
+ 1913  docker-compose run web npm install 
+ 1914  docker-compose up 
+ 1915  docker build -t fotty/sharem:latest 
+ 1916  docker build -t fotty/sharem:latest .
+ 1917  pull master
+ 1918  s
+ 1919  git stash 
+ 1920  pull master
+ 1921  docker-compose up 
+ 1922  docker-compose run web npm install 
+ 1923  docker-compose up 
+ 1924  brew search gopro
+ 1925  brew cask search quick
+ 1926  pull master 
+ 1927  b
+ 1928  brew search whatsapp
+ 1929  brew cask install whatsapp 
+ 1930  brew list 
+ 1931  jpegtran -h
+ 1932  docker ps -a 
+ 1933  docker rm 7a39632d0f46
+ 1934  docker stop 7a39632d0f46
+ 1935  docker rm 7a39632d0f46
+ 1936  docker ps -a 
+ 1937  docker stop 70de38cb041d
+ 1938  docker stop 54
+ 1939  docker ps -a 
+ 1940  docker stop 70de38cb041d
+ 1941  docker ps -a 
+ 1942  docker rm 70de38cb041d
+ 1943  docker ps -a 
+ 1944  docker rm 549b4acb0931
+ 1945  docker ps -a 
+ 1946  pwd
+ 1947  ls
+ 1948  set_alias
+ 1949  ls
+ 1950  ls -a
+ 1951  cd ~
+ 1952  ls
+ 1953  cd ..
+ 1954  ls
+ 1955  cd  ..
+ 1956  ls
+ 1957  cd Volumes/Wo
+ 1958  pwd
+ 1959  reload!
+ 1960  wo
+ 1961  ...
+ 1962  wo
+ 1963  ls
+ 1964  w
+ 1965  wo
+ 1966  ls
+ 1967  cd sharem_frontend
+ 1968  ls
+ 1969  docker-compose up
+ 1970  docker-compose -h
+ 1971  docker-compose version
+ 1972  wstorm .
+ 1973  ls
+ 1974  ls -l 
+ 1975  brew cask search messenger 
+ 1976  heroku plugins:install heroku-docker
+ 1977  brew cask install slack -f 
+ 1978  brew cask install slack 
+ 1979  brew cask reinstall slack
+ 1980  docker -h
+ 1981  docker-compose up 
+ 1982  docker-compose run web  npm install jquery -S 
+ 1983  brew search mockplus 
+ 1984  brew c install mockplus 
+ 1985  brew cask  install mockplus 
+ 1986  brew search pencil
+ 1987  brew search pencilproject
+ 1988  brew search balsamiq
+ 1989  brew cask install balsamiq-mockups
+ 1990  atom 
+ 1991  ls
+ 1992  docker images
+ 1993  docker rmi 298ca9433d29
+ 1994  docker images
+ 1995  docker rmi f6
+ 1996  docker rmi f6 -f
+ 1997  docker images
+ 1998  docker rmi 566 -f
+ 1999  docker images
+ 2000  docker ps
+ 2001  docker ps -a
+ 2002  irb
+ 2003  ls
+ 2004  pwd
+ 2005  brew search applepi
+ 2006  brew install Caskroom/cask/applepi-baker
+ 2007  npm
+ 2008  npm search bootswatch 
+ 2009  ls
+ 2010  wo
+ 2011  cd sharem_frontend
+ 2012  ls
+ 2013  wstorm .
+ 2014  docker-compose run wen npm install npm install autoprefixer-core --save 
+ 2015  docker-compose run web npm install npm install autoprefixer-core --save 
+ 2016  ng test
+ 2017  docker-compose run web ng test 
+ 2018  docker-compose build 
+ 2019  wo
+ 2020  git clone
+ 2021  git clone git@github.com:omitobi/sharem.git
+ 2022  cd sharem
+ 2023  ls
+ 2024  git clone https://github.com/LaraDock/laradock.git
+ 2025  cd laradock
+ 2026  ls
+ 2027  docker-compose up -d nginx mysql redis
+ 2028  atom .
+ 2029  atom ..
+ 2030  docker ps
+ 2031  docker-compose stop 
+ 2032  docker-compose up nginx mysql redis
+ 2033  docker ps
+ 2034  docker-compose stop 
+ 2035  docker-compose up nginx mysql 
+ 2036  docker-compose up -d nginx mysql 
+ 2037  apache2 stop 
+ 2038  which apache
+ 2039  which apache2
+ 2040  nstat
+ 2041  netstat 
+ 2042  dc dtop
+ 2043  dc stop
+ 2044  docker-compose stop 
+ 2045  docker-compose up nginx mysql 
+ 2046  netstat 
+ 2047  docker-compose stop 
+ 2048  docker-compose up -d nginx mysql 
+ 2049  docker-compose stop 
+ 2050  docker-compose up -d nginx mysql -rebuild 
+ 2051  docker-compose up -d nginx mysql -build 
+ 2052  docker-compose up -d nginx mysql -h
+ 2053  docker-compose build 
+ 2054  docker ps
+ 2055  docker images
+ 2056  docker rmi $(docker images -q)
+ 2057  docker rmi $(docker images -q) -f
+ 2058  docker-compose -d ngnix mysql 
+ 2059  docker-compose up -d ngnix mysql 
+ 2060  cd laradock
+ 2061  docker-compose up -d ngnix mysql 
+ 2062  docker-compose up -d nginx mysql
+ 2063  docker images
+ 2064  docker-compose up -d nginx mysql
+ 2065  docker images
+ 2066  docker ps
+ 2067  docker ps -a
+ 2068  docker rm $(docker ps -a -q)
+ 2069  docker-compose up -d nginx mysql
+ 2070  docker-compose exec workspace bash
+ 2071  docker ps -a
+ 2072  ls
+ 2073  cd ..
+ 2074  ls
+ 2075  docker ps -a
+ 2076  docker-compose stop 
+ 2077  cd laradock
+ 2078  docker-compose stop 
+ 2079  docker-compose exec workspace bash
+ 2080  docker-compose up -d nginx mysql
+ 2081  docker-compose exec workspace bash
+ 2082  docker-compose stop 
+ 2083  docker-compose up mysql nginx
+ 2084  docker-compose up -d mysql nginx
+ 2085  docker-compose exec workspace bash
+ 2086  docker-compose up -d mysql nginx
+ 2087  docker-compose stop 
+ 2088  docker-compose up -d mysql nginx
+ 2089  docker-compose exec workspace bash
+ 2090  cd ..
+ 2091  git add .
+ 2092  git commit -m "#30 dockerize the application with laradoc"
+ 2093  docker-compose exec workspace bash
+ 2094  git commit -a -m "#30 dockerize the application with laradoc and add readme to fix issues"
+ 2095  s
+ 2096  git add .
+ 2097  ls
+ 2098  s
+ 2099  git commit -m "#30 laradoc"
+ 2100  cd laradock
+ 2101  ls
+ 2102  s
+ 2103  cd ..
+ 2104  d
+ 2105  push master:docker 
+ 2106  cd laradock
+ 2107  rm .git
+ 2108  rm -rf.git
+ 2109  ls
+ 2110  docker-compose stop
+ 2111  docker-compose up -d mysql apache2
+ 2112  docker-compose stop 
+ 2113  docker ps -a
+ 2114  rm -rf .git
+ 2115  ls
+ 2116  ls -l
+ 2117  cd ..
+ 2118  ls
+ 2119  ch docker
+ 2120  ls
+ 2121  s
+ 2122  d
+ 2123  s
+ 2124  git s
+ 2125  s
+ 2126  git commi -m "rm git "
+ 2127  git commit -a -m "rm git "
+ 2128  push docker
+ 2129  push docker -f
+ 2130  git commit -a -m "rm git "
+ 2131  push docker
+ 2132  cd laradock
+ 2133  ls
+ 2134  ls -l
+ 2135  cd ..
+ 2136  ls
+ 2137  mkdir whosbad 
+ 2138  rm whosbad
+ 2139  rm -r whosbad
+ 2140  ls
+ 2141  cd ..
+ 2142  mkdir whosbad 
+ 2143  cd whosbad
+ 2144  git clone git@github.com:omitobi/sharem.git .
+ 2145  ls
+ 2146  cd laradock
+ 2147  ls
+ 2148  cd la
+ 2149  ls
+ 2150  atom .
+ 2151  cd ..
+ 2152  ls
+ 2153  atom .
+ 2154  pwd
+ 2155  cd ..
+ 2156  ls
+ 2157  ..
+ 2158  ls
+ 2159  cd whosbad
+ 2160  ls
+ 2161  cd laradock
+ 2162  ls
+ 2163  cd ..
+ 2164  atom .
+ 2165  cd ..
+ 2166  cd sharem
+ 2167  ls
+ 2168  rm -rf .git
+ 2169  ls
+ 2170  git init 
+ 2171  git remote add git@github.com:omitobi/sharem.git
+ 2172  git remote add origin git@github.com:omitobi/sharem.git
+ 2173  git add .
+ 2174  git commit -m "fix dark folder"
+ 2175  s
+ 2176  atom .
+ 2177  push master:docker-fix 
+ 2178  ch docker
+ 2179  ch -b docker
+ 2180  pull docker
+ 2181  ls
+ 2182  b
+ 2183  push origin/docker-fix
+ 2184  b
+ 2185  ch docker-fix
+ 2186  merge_with docker
+ 2187  master
+ 2188  pull master
+ 2189  pull master -f
+ 2190  git rebase --onto
+ 2191  git rebase --onto --root
+ 2192  git rebase --onto origin/master 
+ 2193  git rebase master --onto origin/master 
+ 2194  merge_with docker
+ 2195  ch docker
+ 2196  ls
+ 2197  git log
+ 2198  master
+ 2199  git rebase master --onto origin/docker 
+ 2200  git log
+ 2201  ch docker-fix
+ 2202  git log
+ 2203  master
+ 2204  git cherry-pick f54b128086f92d8fa6c8a6705fae870b6ecd7364
+ 2205  s
+ 2206  git add .
+ 2207  s
+ 2208  f
+ 2209  d
+ 2210  git add lalaradock
+ 2211  git add lalaradock/*
+ 2212  git add .
+ 2213  git add --ignore-errors
+ 2214  git add . --ignore-errors
+ 2215  cd laradock
+ 2216  docker-compose -d apache2 mysql 
+ 2217  docker-compose up  -d apache2 mysql 
+ 2218  docker-compose stop
+ 2219  ch -b laradock
+ 2220  d
+ 2221  reload!
+ 2222  phpstorm .
+ 2223  git add .
+ 2224  git log
+ 2225  cp -r laradock ../whosbad
+ 2226  git log
+ 2227  git reset --hard HEAD 43db6c23c6e7764a8342a16a745df80c8715b4aa
+ 2228  git reset --hard 43db6c23c6e7764a8342a16a745df80c8715b4aa
+ 2229  cp -r ../whosbad/laradock laradock
+ 2230  git add .
+ 2231  git commit -m "30 laradoc"
+ 2232  ls
+ 2233  ch docker
+ 2234  merge_with master
+ 2235  ls
+ 2236  ch master
+ 2237  ch docker
+ 2238  ls
+ 2239  git log
+ 2240  git cherry-pick 102b0dad60ffbbdec3f6ffc88d9399e5efe00791
+ 2241  master
+ 2242  s
+ 2243  ch master
+ 2244  git merge
+ 2245  git add ,
+ 2246  git add .
+ 2247  git commit -m "readme"
+ 2248  ch master
+ 2249  ch docker
+ 2250  merge_with master
+ 2251  master
+ 2252  ch docker-fix
+ 2253  merge_with master
+ 2254  master
+ 2255  git cherry-pick 102b0dad60ffbbdec3f6ffc88d9399e5efe00791
+ 2256  docker-compose up -d mysql apache2
+ 2257  cd laradock
+ 2258  docker-compose up -d mysql apache2
+ 2259  ls
+ 2260  pwd
+ 2261  ls
+ 2262  ls -l
+ 2263  cd laradock
+ 2264  ;s
+ 2265  ls
+ 2266  cd ..
+ 2267  mv laradock laradock2
+ 2268  cd ..
+ 2269  ls
+ 2270  rm -rf laradock
+ 2271  mv laradock2 laradock
+ 2272  cd laradock
+ 2273  docker-compose up -d mysql apache2
+ 2274  git add .
+ 2275  git commit -m "#30 folder issue fixes "
+ 2276  ch -b laradock 
+ 2277  push laradock
+ 2278  git fetch origin
+ 2279  git checkout -b laradock origin/laradock
+ 2280  git merge master
+ 2281  git checkout master
+ 2282  git merge --no-ff laradock
+ 2283  git push origin master
+ 2284  pull master
+ 2285  ch mas
+ 2286  master
+ 2287  cd ..
+ 2288  ls
+ 2289  pwd
+ 2290  s
+ 2291  git commit -a -m 'remove laradoc to be fixed again'
+ 2292  ch -b no_laradoc
+ 2293  push no_laradoc
+ 2294  ch laradock
+ 2295  push laradock
+ 2296  git log
+ 2297  s
+ 2298  git add  .
+ 2299  git commit -m"#30 fixed laradoc to now work as intended "
+ 2300  push laradock
+ 2301  master
+ 2302  git log
+ 2303  git reset --hard 43db6c23c6e7764a8342a16a745df80c8715b4aa
+ 2304  merge_with laradock
+ 2305  push master:ninja
+ 2306  ls
+ 2307  ch laradock
+ 2308  ls
+ 2309  master
+ 2310  ls
+ 2311  git reset --hard 43db6c23c6e7764a8342a16a745df80c8715b4aa
+ 2312  push master -f 
+ 2313  reload!
+ 2314  pwd
+ 2315  cd ..
+ 2316  ls
+ 2317  ch laradock 
+ 2318  docker-compose stop 
+ 2319  ls
+ 2320  docker ps -a
+ 2321  docker stop $(docker ps -a -q)
+ 2322  docker rm $(docker ps -a -q)
+ 2323  git log 
+ 2324  ch master
+ 2325  ls
+ 2326  git clone git@github.com:laradock/laradock.git
+ 2327  ls
+ 2328  cd laradock
+ 2329  ls
+ 2330  ls -l
+ 2331  ls -a
+ 2332  docker-compose up -d apache2 mysql
+ 2333  git remote remove origin 
+ 2334  git remote -v
+ 2335  git remote add origin git@github.com:FottyM/laradock_test.git
+ 2336  git add .
+ 2337  git commit -m "laratest"
+ 2338  push master
+ 2339  ls
+ 2340  cd ..
+ 2341  ls
+ 2342  git clone git@github.com:FottyM/laradock_test.git
+ 2343  phpstorm laradock_test
+ 2344  git remote remove origin 
+ 2345  git remote add origin git@github.com:omitobi/sharem.git
+ 2346  git remote -v
+ 2347  git log
+ 2348  git reset --hard 43db6c23c6e7764a8342a16a745df80c8715b4aa
+ 2349  git reset --hard HEAD~20
+ 2350  git reset --hard HEAD~10
+ 2351  pull master
+ 2352  git merge --abort
+ 2353  pull master
+ 2354  docker-compose ps
+ 2355  docker ps -a
+ 2356  ls
+ 2357  ls -l
+ 2358  cd sharem
+ 2359  ls
+ 2360  docker-compose logs
+ 2361  cd laradock
+ 2362  docker-compose logs
+ 2363  docker-compose ps
+ 2364  docker-compose stop 
+ 2365  docker-compose up -d apache2 mysql 
+ 2366  docker-compose logs laradock_applications_1
+ 2367  docker-compose logs 
+ 2368  docker-compose ps
+ 2369  docker-compose ps -a
+ 2370  docker-compose ps 
+ 2371  docker-compose logs laradock_apache2_1 -f
+ 2372  docker-compose logs laradock_apache2_1 
+ 2373  docker-compose ps -q
+ 2374  docker-compose ps 
+ 2375  docker images
+ 2376  docker ps
+ 2377  docker-compose logs 17eb1ba4101b
+ 2378  docker-compose logs 
+ 2379  docker-compose logs -f
+ 2380  docker-compose logs php-fpm_1
+ 2381  docker-compose logs apache2_1
+ 2382  docker-compose logs -f
+ 2383  docker-compose ps
+ 2384  docker-compose stop
+ 2385  docker-compose rm 
+ 2386  docker ps -a
+ 2387  docker images
+ 2388  docker-compose build 
+ 2389  docker-compose up 
+ 2390  docker-compose up -d 
+ 2391  docker-compose ps
+ 2392  docker-compose ps
+ 2393  cd laradock
+ 2394  docker-compose ps
+ 2395  docker-compose up -d apache2 mysql 
+ 2396  docker-compose ps
+ 2397  docker-compose down 
+ 2398  docker-compose stop 
+ 2399  docker-compose up -d apache2 mysql frontend
+ 2400  docker-compose up -d apache2 mysql 
+ 2401  docker-compose down
+ 2402  brew list
+ 2403  docker ps -a
+ 2404  docker-compose ps
+ 2405  reload!
+ 2406  docker-compose ps -a
+ 2407  docker-compose ps 
+ 2408  docker ps
+ 2409  docker ps -a
+ 2410  docker-compose ps
+ 2411  docker-compose down
+ 2412  docker-compose run web npm install bootswatch -S
+ 2413  docker-compose up 
+ 2414  docker-compose up -build 
+ 2415  docker-compose up --build 
+ 2416  atom .
+ 2417  ls
+ 2418  docker-compose run web npm install bootstrap-social -S
+ 2419  wo
+ 2420  cd sharem
+ 2421  ls
+ 2422  atom .
+ 2423  cd laradock
+ 2424  docker-compose up -d apache2 mysql 
+ 2425  docker-compose up --build 
+ 2426  docker ps -a
+ 2427  docker-compose down 
+ 2428  docker-compose ps -a
+ 2429  dockerps -a
+ 2430  docker ps -a
+ 2431  brew search retropie
+ 2432  brew search retro
+ 2433  brew install Caskroom/cask/retroarch
+ 2434  brew -h
+ 2435  brew doctor 
+ 2436  brew missing 
+ 2437  brew cleanup
+ 2438  brew update 
+ 2439  brew cleanup
+ 2440  brew doctor
+ 2441  brew missing 
+ 2442  reload!
+ 2443  brew search unreal
+ 2444  brew search ue
+ 2445  brew search engine
+ 2446  brew search udk
+ 2447  brew search epicgames
+ 2448  brew search epic
+ 2449  brew search cuda
+ 2450  reload!
+ 2451  brew search cuda
+ 2452  cd $HOME
+ 2453  export HOMEBREW_GITHUB_API_TOKEN=6dc04e35dead46ddee5a90f0ae3197ee98fd28c1
+ 2454  set_alias
+ 2455  reload!
+ 2456  brew search cuda
+ 2457  brew install Caskroom/cask/cuda-z
+ 2458  llvm
+ 2459  llvm-g++
+ 2460  llvm-g++-h
+ 2461  llvm-g++ -h
+ 2462  llvm-g++ 
+ 2463  clang
+ 2464  clang -h
+ 2465  clang++
+ 2466  reload!
+ 2467  exit
+ 2468  saas -v
+ 2469  gem install saas
+ 2470  saas -v
+ 2471  gem uninstall saas
+ 2472  sass -v
+ 2473  gem list 
+ 2474  wo
+ 2475  cd -
+ 2476  wo
+ 2477  ls
+ 2478  cd sharem
+ 2479  ls
+ 2480  pull master
+ 2481  b
+ 2482  git remote/branch 
+ 2483  ls
+ 2484  wo
+ 2485  ls
+ 2486  pull master
+ 2487  ch FEATURE/#38-authenticate-apis-with-jwt
+ 2488  git pull origin FEATURE/#38-authenticate-apis-with-jwt
+ 2489  ch FEATURE/#38-authenticate-apis-with-jwt
+ 2490  ls
+ 2491  docker-compose up -d apache2 mysql
+ 2492  cd laradock
+ 2493  docker-compose up -d apache2 mysql
+ 2494  docker
+ 2495  docker strat 
+ 2496  docker-compose up -d apache2 mysql
+ 2497  cd sharem_frontend
+ 2498  docker-compose up
+ 2499  docker-compose up -d 
+ 2500  docker-compose down 
+ 2501  docker-compose up -d apache2 mysql
+ 2502  docker-compose logs
+ 2503  docker-compose down 
+ 2504  wstorm .
+ 2505  docker-compose up 
+ 2506  docker-compose run web npm install bootstrap --save 
+ 2507  docker-compose run web ng -h
+ 2508  docker-compose run web ng help 
+ 2509  atom .
+ 2510  brew search staem 
+ 2511  brew search stemm 
+ 2512  brew search stem
+ 2513  brew search steam 
+ 2514  brew install Caskroom/cask/steam
+ 2515  ls 
+ 2516  docker-compose up -d mysql apache2 
+ 2517  s
+ 2518  git reset --hard HEAD
+ 2519  ch -b staging 
+ 2520  push staging
+ 2521  docker-compose up
+ 2522  docker-compose run web ng test
+ 2523  ng serve
+ 2524  docker-compose run web ng e2e
+ 2525  gc -m "#6 update readme"
+ 2526  git add .
+ 2527  gc -m "#6 update readme"
+ 2528  git add .
+ 2529  gc -m "#6 update readme"
+ 2530  push staging
+ 2531  git add .
+ 2532  s
+ 2533  git add .
+ 2534  s
+ 2535  git commit -m "#6 removed unwanted mockups folder"
+ 2536  push staging
+ 2537  ch master
+ 2538  pull master
+ 2539  staging
+ 2540  ch -b FEATURE#10_signup_form
+ 2541  set_alias
+ 2542  reload!
+ 2543  dc run web ng g c register-component
+ 2544  dc run web ng d c register-component
+ 2545  dc run web ng d c register
+ 2546  dc run web ng g c register
+ 2547  dc run web ng g s _services/register
+ 2548  dc run web ng g c _models/user
+ 2549  dc run web ng g class _models/user
+ 2550  dc run web ng g s _services/login 
+ 2551  dc run web ng d s _services/login 
+ 2552  s
+ 2553  dc run web ng g s _services/user
+ 2554  dc run web ng g m routes
+ 2555  wo
+ 2556  git clone git@github.com:wesbos/Wes-Bos-Captions.git
+ 2557  cd Wes-Bos-Captions
+ 2558  ls
+ 2559  cd JS3
+ 2560  ls
+ 2561  atom .
+ 2562  CD ..
+ 2563  LS
+ 2564  CD ..
+ 2565  LS
+ 2566  ..
+ 2567  LS
+ 2568  ls
+ 2569  rm -rf  Wes-Bos-Captions
+ 2570  ls
+ 2571  git clone git@github.com:wesbos/JavaScript30.git
+ 2572  cd JavaScript30
+ 2573  atom .
+ 2574  dcu 
+ 2575  pwd
+ 2576  touch .travis.yml
+ 2577  dc run web ng g c home 
+ 2578  ssh mutunda@46.101.208.74
+ 2579  cd ~
+ 2580  ls
+ 2581  ls -l
+ 2582  ls la
+ 2583  ls -la
+ 2584  cd .ssh
+ 2585  vim config
+ 2586  reload!
+ 2587  exit 
+ 2588  reload!
+ 2589  ssh sharem
+ 2590  mkdir _backend
+ 2591  pwd
+ 2592  ls
+ 2593  rm -r _backend
+ 2594  cd src/app
+ 2595  mkdir _backend
+ 2596  mkdir _guards
+ 2597  mkdir _directives
+ 2598  dc run web ng g c alert
+ 2599  dc run web ng g c _helpers/alert
+ 2600  dc run web ng g s _services/ alert 
+ 2601  dc run web ng g s _services/alert 
+ 2602  dc run web ng g class _backend/backend 
+ 2603  dc run web ng g service _services/authentication
+ 2604  dc run web ng g class _guards/auth.guard
+ 2605  pwd
+ 2606  dcu
+ 2607  dc run web npm install jwt -S
+ 2608  dcu
+ 2609  docker images
+ 2610  docker rmi ('docker images')
+ 2611  docker ps -a
+ 2612  docker rmi $(docker images -f dangling=true -q)
+ 2613  docker rmi $(docker images)
+ 2614  docker ps -a
+ 2615  docker images
+ 2616  docker rmi $(docker images) -f
+ 2617  docker images
+ 2618  docker rmi $(docker images) -f
+ 2619  byebye
+ 2620  dcu
+ 2621  ssh mutunda.com
+ 2622  ssh mutunda.sharem
+ 2623  cat ~/.ssh/config 
+ 2624  ssh sharem
+ 2625  dc logs -f
+ 2626  docker-compose ps
+ 2627  dcu -d 
+ 2628  dc logs -f
+ 2629  git add .
+ 2630  git commit -m "#10 SIGNUP_FORM the signup forms works and it talks directly to the backend on staging server"
+ 2631  git commit -a -m "#10 SIGNUP_FORM: removed some unecessary assets "
+ 2632  log
+ 2633  g log
+ 2634  push FEATURE#10_signup_form
+ 2635  ch staging
+ 2636  ch -b 'FEATURE#17_travis_ci'
+ 2637  git add .
+ 2638  git commit -m "#17 TRAVIS_CI add a build badge"
+ 2639  push FEATURE#17_travis_ci
+ 2640  staging
+ 2641  pull staging
+ 2642  b
+ 2643  ch -b FEATURE#9_Login_Form 
+ 2644  dc ren web ng g c login 
+ 2645  dc run web ng g c login 
+ 2646  cd src/app/services
+ 2647  dc run web ng g s authentication
+ 2648  dc run web ng g s services/authentication
+ 2649  dcu -d 
+ 2650  dc logs -f
+ 2651  ssh sharem
+ 2652  byebye
+ 2653  dcu -d 
+ 2654  dc logs -f
+ 2655  brew search Kitematic
+ 2656  brew install Caskroom/cask/kitematic
+ 2657  s
+ 2658  git add .
+ 2659  s
+ 2660  pwd
+ 2661  cat README.md 
+ 2662  gc -m"#9 LOGIN_FORM: login/logout works but there is a small fix to make when the user logs in it doesn't refresh the navbar... 😒"
+ 2663  push FEATURE\#9_Login_Form
+ 2664  git log 
+ 2665  d
+ 2666  git reset --hard HEAD
+ 2667  brew list
+ 2668  7z -h
+ 2669  s
+ 2670  git add src/app/app.component.html src/app/app.component.ts src/app/home/home.component.html src/app/login/login.component.html src/app/login/login.component.ts
+ 2671  s
+ 2672  git add .
+ 2673  gc -m "#9 LOGIN_FROM: login and lougout plus design fixes"
+ 2674  d
+ 2675  s
+ 2676  push FEATURE\#9_Login_Form
+ 2677  ssh mutunda.com
+ 2678  ssh root.mutunda
+ 2679  brew cask search vagrant 
+ 2680  cd  /etc/apache2
+ 2681  ls
+ 2682  cat httpd.conf
+ 2683  ls
+ 2684  dcu 
+ 2685  dcu -d
+ 2686  dc logd -f
+ 2687  dc logs -f
+ 2688  b
+ 2689  ch FEATURE\#10_signup_form
+ 2690  b
+ 2691  cd /Applications
+ 2692  ls
+ 2693  xattr -| Tomb\ Raider.app
+ 2694  ..
+ 2695  ls
+ 2696  xattr -| Tomb\ Raider.app
+ 2697  ..
+ 2698  xattr -| /Applications/Tomb\ Raider.app
+ 2699  cd ..
+ 2700  xattr -dr com.apple.quarantine /Applications/Tomb\ Raider.app
+ 2701  open Tomb\ Raider.app
+ 2702  ..
+ 2703  xattr -| /Volumes/Tomb\ Raider/Tomb\ Raider.app
+ 2704  open .
+ 2705  exit
+ 2706  ping www.mutunda.com
+ 2707  ping www.google.com
+ 2708  git add .
+ 2709  git commit -m"#10 SIGNUP FORM: improved alert message and accept terms and conditions"
+ 2710  push FEATURE#10_signup_form
+ 2711  pull origin/FEATURE\#10_signup_form
+ 2712  pull FEATURE\#10_signup_form
+ 2713  push FEATURE#10_signup_form
+ 2714  staging
+ 2715  pull staging
+ 2716  d
+ 2717  s
+ 2718  d
+ 2719  ping www.google.com
+ 2720  wo
+ 2721  cd sharem_frontend
+ 2722  dcu -d 
+ 2723  b
+ 2724  brew cask search solidity
+ 2725  brew cask search ethereum
+ 2726  brew cask install ethereum
+ 2727  brew cask install ethereum-wallet
+ 2728  npm install web3
+ 2729  npm uninstall web3
+ 2730  cd ~/
+ 2731  ls
+ 2732  cd Desktop
+ 2733  ls
+ 2734  npm install web3 -g
+ 2735  brew update 
+ 2736  brew upgrade
+ 2737  rm -f ~/.zcompdump; compinit
+ 2738  set_alias
+ 2739  brew tap ethereum/ethereum
+ 2740  brew install ethereum
+ 2741  pwd
+ 2742  mkdir eth
+ 2743  cd eth
+ 2744  ls
+ 2745  npm init 
+ 2746  atom .
+ 2747  touch index.js
+ 2748  npm i web3
+ 2749  npm i web3 -S
+ 2750  npm start
+ 2751  wo
+ 2752  git clone https://bitbucket.org/andreasellervee/blockchain-seminar.git
+ 2753  cd blockchain-seminar
+ 2754  npm i
+ 2755  ls
+ 2756  atom .
+ 2757  cd development
+ 2758  npm i
+ 2759  bower i
+ 2760  brew install bower
+ 2761  npm i -g bower
+ 2762  reload!
+ 2763  bower install 
+ 2764  testrpc
+ 2765  npm start
+ 2766  pwd
+ 2767  ls
+ 2768  brew search mongo 
+ 2769  brew search mongodb 
+ 2770  brew cask install mongodb  
+ 2771  npm start
+ 2772  mongo -h
+ 2773  ls
+ 2774  pwd
+ 2775  cat app.js
+ 2776  cd ~/Applications
+ 2777  ls
+ 2778  rm -rf Life\ Is\ Strange.app
+ 2779  ls
+ 2780  cd /
+ 2781  ls
+ 2782  cd Applications
+ 2783  ls
+ 2784  open Tomb\ Raider\ 2013.app
+ 2785  xattr -| Tomb\ Raider\ 2013.app
+ 2786  xattr -h
+ 2787  ..
+ 2788  xattr -l Tomb\ Raider\ 2013.app
+ 2789  xattr -| -r Tomb\ Raider\ 2013.app
+ 2790  xattr -| Tomb\ Raider\ 2013.app -r 
+ 2791  xattr -| Tomb\ Raider\ 2013.app 
+ 2792  brew search wine
+ 2793  .. 
+ 2794  rm -r Tomb\ Raider\ 2013.app
+ 2795  brew search melwarebyte
+ 2796  brew search malwarebyte
+ 2797  brew install Caskroom/cask/malwarebytes-anti-malware
+ 2798  +902124132222
+ 2799  brew cask searh game-maker
+ 2800  brew cask search game-maker
+ 2801  brew cask search gamemaker
+ 2802  brew search game
+ 2803  brew search unity
+ 2804  brew search etheruem-wallet
+ 2805  brew search etheruem-
+ 2806  brew search etherue
+ 2807  brew cask etherue
+ 2808  brew-cask searc  etherue
+ 2809  brew-cask search  etherue
+ 2810  brew cask search  etherue
+ 2811  brew cask list
+ 2812  brew cask uninstall ethereum-wallet
+ 2813  brew cask install ethereum-wallet
+ 2814  brew search apptrap
+ 2815  brew cask uninstall ethereum-wallet
+ 2816  brew cask install ethereum-wallet
+ 2817  geth
+ 2818  geth --etherbase
+ 2819  cd ~/Library/Ethereum/keystore
+ 2820  ls
+ 2821  ls -l
+ 2822  ls la
+ 2823  cd ..
+ 2824  ls
+ 2825  cd testnet
+ 2826  ls
+ 2827  cd keystore
+ 2828  ls
+ 2829  rm UTC--2017-01-20T02-20-19.016727418Z--a4d110d282a2c7648f2ce463582a284278ce39f9
+ 2830  rm UTC--2017-01-23T2
+ 2831  rm UTC--2017-01-23T20-51-15.911474000Z--1095c47d43cf4d2109484b146f728475814d0144
+ 2832  rm UTC--2017-01-23T21-21-45.319890064Z--fa7f0672d44da2b25aec8d00e7910a83fc1b4ae8
+ 2833  rm UTC--2017-01-23T21-25-36.295011470Z--c0a1f9bc6d772370cb2b44b15cb117e9c001a8fb
+ 2834  ls
+ 2835  cd ~
+ 2836  brew search eset
+ 2837  wo
+ 2838  ls
+ 2839  open .
+ 2840  cd JavaScript30
+ 2841  ls
+ 2842  atom 11\ -\ Custom\ Video\ Player
+ 2843  cd ~
+ 2844  cd ~/Desktop
+ 2845  ls
+ 2846  atom eth
+ 2847  ls
+ 2848  rsense start --port 47367
+ 2849  gem uninstall rsense 
+ 2850  brew search unibootin
+ 2851  ls
+ 2852  cd ~/
+ 2853  ls
+ 2854  cd ..
+ 2855  ls
+ 2856  cd ..
+ 2857  ls
+ 2858  cd Volumes
+ 2859  ls
+ 2860  cp -R ~/Downloads/en_windows_10_multiple_editions_version_1607_updated_jul_2016_x64_dvd_9058187.iso /Volumes/Untitled
+ 2861  ls
+ 2862  cd UUI
+ 2863  ls
+ 2864  ls -l
+ 2865  ls
+ 2866  cd ..
+ 2867  ls -l UUI
+ 2868  rm -r UUI/*.*
+ 2869  cd UUI
+ 2870  ls
+ 2871  ls -l
+ 2872  cd  ..
+ 2873  ls -l UUI
+ 2874  ls
+ 2875  disktool -h
+ 2876  disktool -help
+ 2877  disktool help 
+ 2878  diskutil
+ 2879  cp -R CCSA_X64FRE_EN-US_DV5/ UUI
+ 2880  cp -R ~/Downloads/en_windows_10_multiple_editions_version_1607_updated_jul_2016_x64_dvd_9058187.iso /Volumes/UUI
+ 2881  wo
+ 2882  cd sharem_frontend
+ 2883  dcu -d
+ 2884  ls
+ 2885  brew cask uninstall slack 
+ 2886  brew cask install slack 
+ 2887  testrpc
+ 2888  brew search truffle
+ 2889  npm install -g truffle
+ 2890  cd ~/Desktop
+ 2891  mkdir ttu
+ 2892  cd ttu
+ 2893  reload!
+ 2894  truffle init 
+ 2895  ls 
+ 2896  atom .
+ 2897  wo
+ 2898  ls
+ 2899  cd blockchain-seminar
+ 2900  ls
+ 2901  git log
+ 2902  atom .
+ 2903  wo
+ 2904  cd sharem_frontend
+ 2905  dcu -d
+ 2906  wo
+ 2907  cd sharem_frontend
+ 2908  dcu logs
+ 2909  dcu log
+ 2910  dcu -h
+ 2911  dc -t 
+ 2912  dc --tail
+ 2913  docker-compose -t
+ 2914  docker-compose -f
+ 2915  docker -f
+ 2916  docker logs
+ 2917  wstorm .
+ 2918  pull staging
+ 2919  dc down
+ 2920  dcu 
+ 2921  git satus
+ 2922  git status
+ 2923  git commit -a -m "#24 FIX_URLS: note that I've added some li to alerts might need another fix soon"
+ 2924  push staging
+ 2925  ch -b FEATURE#23_USER_DASHBOARD
+ 2926  dc run web ng g c dashbord
+ 2927  brew search skype
+ 2928  brew cask uninstall 
+ 2929  brew cask install skype 
+ 2930  brew cask reinstall skype 
+ 2931  brew cask uninstall skype 
+ 2932  brew cask install skype 
+ 2933  dcu
+ 2934  cd ~/Desktop
+ 2935  wget http://bootstrapbay.com/preview/mater-v2-angular-webapp-admin-BD6A68D
+ 2936  ls
+ 2937  dcu
+ 2938  dc run web ng g class helpers/GlobalVariables
+ 2939  dc run web ng g s services/products
+ 2940  dcu
+ 2941  dc run web ng g c dashboard
+ 2942  dcu
+ 2943  git add .
+ 2944  git log
+ 2945  git commit -m "#23 USER DASHBOARD initialised"
+ 2946  docker-compose -h
+ 2947  docker-compose build
+ 2948  git s
+ 2949  git status 
+ 2950  docker-compose build
+ 2951  docker-compose down 
+ 2952  docker-compose build
+ 2953  dcu
+ 2954  dc run web npm install mydatepicker --save
+ 2955  dc run web ng g c product-management
+ 2956  git commit -a -m "#23 USER DASHBOARD: update user info..., will add the rest of validation later"
+ 2957  git s
+ 2958  s
+ 2959  d
+ 2960  s
+ 2961  push FEATURE#23_USER_DASHBOARD
+ 2962  history
+ 2963  dc run web ng g c product-management/porduct-list
+ 2964  dc run web npm install ngx-uploader --save
+ 2965  cd ~/.ssh
+ 2966  ls
+ 2967  cat config
+ 2968  ssh sharem
+ 2969  exit
+ 2970  git add .
+ 2971  git commit -a -m "#23 User Dashboard almost done "
+ 2972  push FEATURE\#23_USER_DASHBOARD
+ 2973  staging
+ 2974  ch -b FEATURE#12SEARCH_RESULT
+ 2975  dc run web ng c search-results 
+ 2976  dc run web ng g c search-results 
+ 2977  git stash 
+ 2978  master 
+ 2979  staging 
+ 2980  pull staging
+ 2981  ch -b FEATURE#12SEARCH_RESULT
+ 2982  ch -B FEATURE#12SEARCH_RESULT
+ 2983  dc run web ng g c search-results 
+ 2984  dc run web ng g c search
+ 2985  dcu
+ 2986  byebye
+ 2987  dcu
+ 2988  git reset --hard HEAD
+ 2989  dcu
+ 2990  git lo
+ 2991  git log
+ 2992  docker stop $(docker ps -a -q)
+ 2993  docker rm $(docker ps -a -q)
+ 2994  dcu
+ 2995  docker-compose build 
+ 2996  docker images
+ 2997  docker-compose run web 
+ 2998  byebye
+ 2999  docker ps -a
+ 3000  docker rm f878099cff7e
+ 3001  docker ps -a
+ 3002  docker rm 2fdf72f58c80
+ 3003  docker ps -a
+ 3004  docker images
+ 3005  docker images rmi c1b503464c7d -f
+ 3006  docker images rmi c1b503464c7d 
+ 3007  docker rmi c1b503464c7d 
+ 3008  docker images
+ 3009  docker rm $(docker ps -a -q)
+ 3010  docker rmi $(docker images -q)
+ 3011  dcu
+ 3012  dcu build --nocahe
+ 3013  dcu build 
+ 3014  docker rm $(docker ps -a -q)
+ 3015  docker rmi $(docker images -q)
+ 3016  dcu 
+ 3017  git reset --hard HEAD
+ 3018  duc 
+ 3019  dcu 
+ 3020  staging
+ 3021  git log
+ 3022  git reset --hard HEAD~1
+ 3023  dcu 
+ 3024  dcu
+ 3025  dcu 
+ 3026  dcu --build
+ 3027  s
+ 3028  git reset --hard HEAD
+ 3029  pull staging
+ 3030  dcu --build
+ 3031  b
+ 3032  ch FEATURE\#23_USER_DASHBOARD
+ 3033  dcu 
+ 3034  git log
+ 3035  dc run web npm update 
+ 3036  dc run web npm update --save
+ 3037  dc run web npm install 
+ 3038  dc run web npm i -g npm-check-updates
+ 3039  npm-check-updates -u
+ 3040  dc run web npm-check-updates -u
+ 3041  dc run web npm install -g npm-check-updates
+ 3042  dc run web npm-check-updates -u
+ 3043  dc run web npm install -g npm-check-updates
+ 3044  dc run web npm install
+ 3045  dcu 
+ 3046  git log
+ 3047  git log 
+ 3048  git status
+ 3049  git add .
+ 3050  git commit -m "#12 search results listing "
+ 3051  dc run web ng g c product-details
+ 3052  git s
+ 3053  s
+ 3054  git add .
+ 3055  git log
+ 3056  log
+ 3057  git log
+ 3058  git commit -m "#12  master details flow from search relust to individual product"
+ 3059  push FEATURE#23_USER_DASHBOARD
+ 3060  dcu 
+ 3061  ssh sharem
+ 3062  ls
+ 3063  ssh sharem
+ 3064  ls
+ 3065  s
+ 3066  git add .
+ 3067  s
+ 3068  git commit -m "#12 added small changes to the result and search "
+ 3069  push FEATURE#23_USER_DASHBOARD
+ 3070  wo
+ 3071  ls
+ 3072  mkdir BibleJS
+ 3073  cd BibleJS
+ 3074  npm init 
+ 3075  s
+ 3076  git init 
+ 3077  s
+ 3078  git add .
+ 3079  git commit -m 'Initial commit'
+ 3080  push master
+ 3081  https://github.com/FottyM/BibleJS.git
+ 3082  git remote add origin https://github.com/FottyM/BibleJS.git
+ 3083  push master 
+ 3084  touch README.md 
+ 3085  atom .
+ 3086  touch LICENSE.md 
+ 3087  git add .
+ 3088  git commit -m "readme and license"
+ 3089  push master 
+ 3090  npm i --save commander
+ 3091  touch app.js 
+ 3092  node app.js -f
+ 3093  node app.js
+ 3094  node app.js -f
+ 3095  npn i express --save 
+ 3096  npm i express --save 
+ 3097  node app.js
+ 3098  touch Dockerfile 
+ 3099  touch .dockerignore
+ 3100  touch .gitignore
+ 3101  wstorm .
+ 3102  docker build -t fotty/biblejs:latest .
+ 3103  docker images
+ 3104  docker run -p 49160:8080 fotty/biblejs
+ 3105  npm install nodemon --save
+ 3106  docker build -t fotty/biblejs:latest .
+ 3107  docker run -p 49160:8080 fotty/biblejs
+ 3108  nodemon app.js
+ 3109  npm install nodemon -g
+ 3110  docker build -t fotty/biblejs:latest .
+ 3111  docker run -p 49160:8080 fotty/biblejs
+ 3112  pwd
+ 3113  ls
+ 3114  docker run -p 49160:8080 fotty/biblejs
+ 3115  docker run -p 8080:8080 fotty/biblejs
+ 3116  docker run -p 8000:8080 fotty/biblejs
+ 3117  nodemon app.js
+ 3118  curl -u#k5rm6gfQjJYfylzk7Pse96dNEAn2ishtEOEf7um7:X -k https://bibles.org/v2/versions/eng-GNTD.xml
+ 3119  curl -u #k5rm6gfQjJYfylzk7Pse96dNEAn2ishtEOEf7um7:X -k https://bibles.org/v2/versions/eng-GNTD.xml
+ 3120  curl --help
+ 3121  curl -u #{k5rm6gfQjJYfylzk7Pse96dNEAn2ishtEOEf7um}7:X -k https://bibles.org/v2/versions/eng-GNTD.xml
+ 3122  curl -u #{k5rm6gfQjJYfylzk7Pse96dNEAn2ishtEOEf7um7}:X -k https://bibles.org/v2/versions/eng-GNTD.xml
+ 3123  curl -u k5rm6gfQjJYfylzk7Pse96dNEAn2ishtEOEf7um7:X -k https://bibles.org/v2/versions/eng-GNTD.xml
+ 3124  curl -u k5rm6gfQjJYfylzk7Pse96dNEAn2ishtEOEf7um7:X -k https://bibles.org/v2/versions/eng-GNTD.json
+ 3125  curl -u k5rm6gfQjJYfylzk7Pse96dNEAn2ishtEOEf7um7:X -k https://bibles.org/v2/versions/eng-GNTD.js
+ 3126  curl -u k5rm6gfQjJYfylzk7Pse96dNEAn2ishtEOEf7um7:X -k https://bibles.org/v2/verses/eng-GNTD:Acts.8.34.js
+ 3127  npm i http rxjs -S
+ 3128  touch helpers.js
+ 3129  npm i -S request
+ 3130  brew search skype
+ 3131  brew cask install skype
+ 3132  brew cask re-install skype
+ 3133  brew cask uninstall skype
+ 3134  brew cask install skype
+ 3135  nodemon app.js
+ 3136  dcu 
+ 3137  push FEATURE#23_USER_DASHBOARD
+ 3138  git add .
+ 3139  git commit -m '#12 minor updates '
+ 3140  push FEATURE#23_USER_DASHBOARD
+ 3141  staging
+ 3142  pull staging
+ 3143  ch -b FEATURE\#12SEARCH_RESULT
+ 3144  ch -B FEATURE\#12SEARCH_RESULT
+ 3145  dc run web ng github-pages:deploy
+ 3146  npm i -g angular-cli 
+ 3147  ng github-pages:deploy
+ 3148  ls
+ 3149  pwd
+ 3150  ls
+ 3151  b
+ 3152  ch staging
+ 3153  ls 
+ 3154  byebye
+ 3155  atom .
+ 3156  ng github-pages:deploy
+ 3157  npm outeted
+ 3158  npm outdated
+ 3159  npm update 
+ 3160  dc run web npm update 
+ 3161  dc run web npm outdated
+ 3162  dc run web npm update 
+ 3163  dc run web npm install
+ 3164  dc bash 
+ 3165  docker ps -a
+ 3166  docker exect -it e101968d3fcf bash
+ 3167  docker run -i -t --entrypoint /bin/bash e101968d3fcf
+ 3168  docker images 
+ 3169  docker run -i -t --entrypoint /bin/bash 0f0eff017317
+ 3170  docker stop $(docker ps -a -q)
+ 3171  docker rm $(docker ps -a -q)
+ 3172  docker images
+ 3173  docker rmi $(docker images -q)\n
+ 3174  docker images
+ 3175  docker ps -a
+ 3176  dcu 
+ 3177  docker ps -a
+ 3178  docker run -i -t --entrypoint /bin/bash 52df196d1060
+ 3179  docker images
+ 3180  docker run -i -t --entrypoint /bin/bash ed4b960dcc9d
+ 3181  rm -rf node_modules
+ 3182  ls
+ 3183  docker run -i -t --entrypoint /bin/bash ed4b960dcc9d

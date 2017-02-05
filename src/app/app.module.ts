@@ -26,6 +26,7 @@ import { NgUploaderModule } from 'ngx-uploader';
 import {SearchResultsComponent} from "./search-results/search-results.component";
 import {SearchComponent} from "./search/search.component";
 import { ProductDetailsComponent } from './product-details/product-details.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 
 @NgModule({
@@ -42,7 +43,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     SearchResultsComponent,
     SearchComponent,
     ProductDetailsComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
   ],
 
   imports: [
