@@ -13,20 +13,20 @@ import { AppComponent } from './app.component';
 import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
 import { AlertComponent } from './helpers/alert/alert.component';
-import {AlertService} from "./services/alert.service";
-import {AuthenticationService} from "./services/authentication.service";
-import {AuthGuard} from "./guards/auth.guard";
+import {AlertService} from './services/alert.service';
+import {AuthenticationService} from './services/authentication.service';
+import {AuthGuard} from './guards/auth.guard';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import {ProductsService} from "./services/products.service";
-import {MyDatePickerModule} from "mydatepicker";
+import {ProductsService} from './services/products.service';
+import {MyDatePickerModule} from 'mydatepicker';
 import { ProductManagementComponent } from './product-management/product-management.component';
 import { ProductListComponent } from './product-management/product-list/product-list.component';
 import { NgUploaderModule } from 'ngx-uploader';
-import {SearchResultsComponent} from "./search-results/search-results.component";
-import {SearchComponent} from "./search/search.component";
+import {SearchResultsComponent} from './search-results/search-results.component';
+import {SearchComponent} from './search/search.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
-import { UserProfileComponent } from './user-profile/user-profile.component';
+
 
 
 @NgModule({
