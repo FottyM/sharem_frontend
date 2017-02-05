@@ -4,6 +4,6 @@ RUN npm install -g angular-cli
 RUN npm install -g npm-check-updates
 RUN mkdir -p /usr/src/sharem
 WORKDIR /usr/src/sharem
-RUN npm-check-updates -u
+COPY . /usr/src/sharem/
 RUN npm install
 COPY . /usr/src/sharem/
