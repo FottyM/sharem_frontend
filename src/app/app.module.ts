@@ -23,6 +23,9 @@ import {MyDatePickerModule} from "mydatepicker";
 import { ProductManagementComponent } from './product-management/product-management.component';
 import { ProductListComponent } from './product-management/product-list/product-list.component';
 import { NgUploaderModule } from 'ngx-uploader';
+import {SearchResultsComponent} from "./search-results/search-results.component";
+import {SearchComponent} from "./search/search.component";
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 
 @NgModule({
@@ -36,6 +39,10 @@ import { NgUploaderModule } from 'ngx-uploader';
     DashboardComponent,
     ProductManagementComponent,
     ProductListComponent,
+    SearchResultsComponent,
+    SearchComponent,
+    ProductDetailsComponent,
+    ProductDetailsComponent
   ],
 
   imports: [
