@@ -9,7 +9,7 @@ import {currentUser} from "./helpers/global-variables";
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.sass']
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
 

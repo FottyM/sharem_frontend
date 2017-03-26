@@ -9,24 +9,24 @@ import {Subscription} from 'rxjs/Subscription'
 @Component({
   selector: 'product-management',
   templateUrl: './product-management.component.html',
-  styleUrls: ['./product-management.component.sass']
+  styleUrls: ['./product-management.component.css']
 })
 export class ProductManagementComponent implements OnInit {
 
   product: FormGroup;
 
   constructor(private alertService: AlertService,
-              private productService: ProductsService,
-              private fb: FormBuilder,
-              private router: Router,
-              private route: ActivatedRoute) {}
+    private productService: ProductsService,
+    private fb: FormBuilder,
+    private router: Router,
+    private route: ActivatedRoute) { }
 
   ngOnInit() {
     console.log('Product management...');
     this.product = this.initProductFormBuilder();
   }
 
-  addProduct({ value, valid }: { value: Product, valid: boolean }){
+  addProduct({ value, valid }: { value: Product, valid: boolean }) {
 
     return this.productService.createProduct(value).subscribe(
       (data) => {
@@ -43,22 +43,27 @@ export class ProductManagementComponent implements OnInit {
     );
   }
 
-  deleteProduct(id: number){
+  deleteProduct(id: number) {
     this.productService.deleteProduct(id)
       .subscribe(
       (data) => {
-        console.log(data)
+        console.log(data);
       },
-      (error) => {console.log(error)
+      (error) => {
+        console.log(error);
       }
-    );
+      );
 
   }
 
-  upadteProduct(product: Product){
+  upadteProduct(product: Product) {
     return this.productService
       .updateProduct(product)
-      .subscribe( data => {console.log(data)}, error => { console.log(error)});
+      .subscribe((data) => {
+        console.log(data);
+      }, error => {
+        console.log(error);
+      });
   }
 
   private initProductFormBuilder() {
@@ -66,7 +71,7 @@ export class ProductManagementComponent implements OnInit {
       name: ['', Validators.required],
       price: ['', Validators.required],
       description: ['', Validators.required],
-      images:{}
+      images: {}
     });
   }
 }

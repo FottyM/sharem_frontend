@@ -12,7 +12,7 @@ import {AlertService} from "../services/alert.service";
 @Component({
   selector: 'app-product-details',
   templateUrl: './product-details.component.html',
-  styleUrls: ['./product-details.component.sass']
+  styleUrls: ['./product-details.component.css']
 })
 export class ProductDetailsComponent implements OnInit {
 
@@ -20,42 +20,42 @@ export class ProductDetailsComponent implements OnInit {
   product: Product;
   purchaseOrder: FormGroup;
   renter = currentUser.user;
-  private dateOptions: IMyOptions = { dateFormat: 'dd.mm.yyyy'};
+  private dateOptions: IMyOptions = { dateFormat: 'dd.mm.yyyy' };
 
-  constructor(private router: ActivatedRoute, private fb:FormBuilder, private alerService: AlertService) { }
+  constructor(private router: ActivatedRoute, private fb: FormBuilder, private alerService: AlertService) { }
 
   ngOnInit() {
     this.router.params.forEach((params: Params) => {
       let id: number = +params['id'];
 
-      PRODUCTS.forEach( (product)=>{
-        if(product.id == id ){return this.product = product;}
-      })
+      PRODUCTS.forEach((product) => {
+        if (product.id === id) { return this.product = product; }
+      });
     });
 
     this.purchaseOrder = this.initFormBuilder();
 
   }
 
-  goBack():void{
+  goBack(): void {
     window.history.back();
   }
 
-  initFormBuilder(){
+  initFormBuilder() {
     return this.fb.group({
-      name: [''+this.product.name, Validators.required],
+      name: ['' + this.product.name, Validators.required],
       rentalPeriod: this.fb.group(
         {
           startDate: ['', Validators.required],
-          endDate: ['',Validators.required]
+          endDate: ['', Validators.required]
         }
       ),
-      owner_id: [''+this.product.user_id,Validators.required],
-      renter_id: [''+this.renter.user_id, Validators.required]
+      owner_id: ['' + this.product.user_id, Validators.required],
+      renter_id: ['' + this.renter.user_id, Validators.required]
     });
   }
 
-  onSubmit({value, valid}:{value: PurchaseOrder, valid: boolean}){
+  onSubmit({value, valid}: { value: PurchaseOrder, valid: boolean }) {
     this.alerService.success(`
       Request for ${value.name} rental has been sent From:
       ${value.rentalPeriod.startDate['formatted']}
@@ -63,7 +63,7 @@ export class ProductDetailsComponent implements OnInit {
       `);
     setTimeout(() => {
       window.history.back();
-    } , 2000);
+    }, 2000);
 
     // window.history.back();
     // console.log(value, valid);
