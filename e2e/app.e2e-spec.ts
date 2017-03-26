@@ -7,8 +7,8 @@ describe('sharem App', function() {
     page = new SharemPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display message saying SHAREM', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('SHAREM');
   });
 });

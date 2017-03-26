@@ -20,7 +20,6 @@
     "@angular/platform-browser": "2.4.6",
     "@angular/platform-browser-dynamic": "2.4.6",
     "@angular/router": "3.4.6",
-    "angular-cli": "^1.0.0-beta.22-1",
     "bootstrap": "^3.3.7",
     "bootstrap-sass": "^3.3.7",
     "core-js": "^2.4.1",
@@ -31,22 +30,27 @@
     "zone.js": "^0.7.6"
   },
   "devDependencies": {
+    "@angular/cli": "^1.0.0",
     "@angular/compiler-cli": "2.4.6",
     "@types/jasmine": "2.5.41",
     "@types/node": "^7.0.5",
-    "angular-cli": "1.0.0-beta.22-1",
     "codelyzer": "~2.0.0-beta.1",
     "jasmine-core": "2.5.2",
     "jasmine-spec-reporter": "3.2.0",
     "karma": "1.4.1",
     "karma-chrome-launcher": "^2.0.0",
     "karma-cli": "^1.0.1",
+    "karma-coverage-istanbul-reporter": "^1.0.0",
     "karma-jasmine": "^1.0.2",
+    "karma-jasmine-html-reporter": "^0.2.2",
     "karma-remap-istanbul": "^0.5.0",
     "protractor": "5.1.0",
     "ts-node": "2.0.0",
     "tslint": "^4.0.2",
     "typescript": "~2.1.5",
     "webdriver-manager": "12.0.1"
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:FottyM/sharem_frontend.git",
+  "author": "Fortunat Mutunda <fotimutunda@gmail.com>"
 }
